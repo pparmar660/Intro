@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="pink_btn">#DA246A</color>
+    <color name="pink_text">#C50055</color>
+    <color name="et_bg">#272727</color>
+    <color name="et_placeholder">#797979</color>
+    <color name="hori_line">#5D5D5D</color>
+    <color name="rangebar_color">#50B5C7</color>
+    <color name="green">#6CBD57</color>
+    <color name="orange">#FB9953</color>
+    <color name="red_color">#FF3B30</color>
+    <color name="list_selector">#2E2E2E</color>
+    <color name="blue">#00B4D5</color>
+    <color name="screen_background">#393939</color>
+    <color name="text_color">#606061</color>
+    <color name="header_color">#C2C2C2</color>
+    <color name="header_background">#2A2A2A</color>
+    <color name="pink">#D21768</color>
+    <color name="intro_button">#DA246A</color>
+    <color name="gray_text">#9D9D9D</color>
+    <color name="chat_box">#AAAAAA</color>
+    <color name="user_profile_tv">#3A3A3A</color>
+    <color name="blue_text">#2F70E1</color>
+    <color name="sky_blue">#04D4F8</color>
+    <color name="dark_gray">#7A7D7D</color>
+    <color name="breadcrumb_like_color">#939EA5</color>
+    <color name="breadcrumb_like_header_color">#CED3D7</color>
+    <color name="queue_background">#2F343B</color>
+    <color name="list_color">#464E51</color>
+    <color name="light_gray">#AAAAAA</color>
+    <color name="transprent_black">#B3000000</color>
+</resources>

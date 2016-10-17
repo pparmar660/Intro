@@ -1,0 +1,7 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android" 
+     android:zAdjustment="top">  
+
+    <translate android:fromYDelta="0" 
+               android:toYDelta="100%p" 
+               android:duration="600" />
+</set><!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/anim/exit_slide_down.xml -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="queueothertextsize">20sp</dimen>
+    <dimen name="queuetextsize">23sp</dimen>
+    <dimen name="queuelargetextsize">48sp</dimen>
+    <dimen name="queueheadertextsize">40sp</dimen>
+    <dimen name="clocksize">30dp</dimen>
+    <dimen name="imagesize">60dp</dimen>
+    <dimen name="matchLayoutSize">76dp</dimen>
+    <dimen name="nameagesize">22sp</dimen>
+    <dimen name="distancesize">16sp</dimen>
+    <dimen name="timesize">12sp</dimen>
+    <dimen name="bioSize">150dp</dimen>
+    <item name="image_weight" type="dimen" format="float">0.22</item>
+    <item name="circular_dot" format="float" type="dimen">15</item>
+    <dimen name="margin">40dp</dimen>
+
+    <dimen name="view_horizontal">125dp</dimen>
+    <dimen name="view_vertical">195dp</dimen>
+    <dimen name="view_line_profile">100dp</dimen>
+</resources>

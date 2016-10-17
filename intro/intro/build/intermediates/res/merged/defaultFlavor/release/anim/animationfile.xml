@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+android:interpolator="@android:anim/linear_interpolator" >
+
+<translate
+    android:duration="500"
+    android:fromYDelta="-10%p"
+    android:toYDelta="10%p" /> 
+    </set><!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/anim/animationfile.xml -->

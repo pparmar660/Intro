@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-es/values-es.xml -->
+    <eat-comment/>
+    <plurals name="tw__time_hours">
+        <item quantity="one">1 h</item>
+        <item quantity="other">%dh</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1 m</item>
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1 s</item>
+        <item quantity="other">%ds</item>
+    </plurals>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-es/values-es.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"NO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"SÍ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/intro/facebookSDK/unspecified/res/values-es/values-es.xml -->
+    <eat-comment/>
+    <string name="com_facebook_choose_friends">Elige Amigos</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">Aceptar</string>
+    <string name="com_facebook_image_download_unknown_error">Error al descargar la imagen.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView inicio de sesión requiere permiso INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Error de AndroidManifest</string>
+    <string name="com_facebook_loading">Cargando</string>
+    <string name="com_facebook_loginview_cancel_action">Cancelar</string>
+    <string name="com_facebook_loginview_log_in_button">Iniciar sesión con Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Cerrar sesión</string>
+    <string name="com_facebook_loginview_log_out_button">Cerrar sesión</string>
+    <string name="com_facebook_loginview_logged_in_as">Sesión iniciada como: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Sesión iniciada con Facebook</string>
+    <string name="com_facebook_logo_content_description">Logo de Facebook</string>
+    <string name="com_facebook_nearby">Cercano</string>
+    <string name="com_facebook_picker_done_button_text">Aceptar</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d estuvieron aquí</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">es:%1$,d estuvieron aquí</string>
+    <string name="com_facebook_requesterror_password_changed">Su contraseña de Facebook ha cambiado, por favor vuelva a conectar la aplicación con Facebook.</string>
+    <string name="com_facebook_requesterror_permissions">Una conexión de aplicación con Facebook falló debido a permisos insuficientes, por favor, conceda los permisos de aplicaciones para realizar la operación.</string>
+    <string name="com_facebook_requesterror_reconnect">Se produjo un error al conectar con Facebook, por favor vuelva a conectar la aplicación con Facebook.</string>
+    <string name="com_facebook_requesterror_relogin">La aplicación no se conecta con Facebook, inicie sesión y volver a conectar esta aplicación.</string>
+    <string name="com_facebook_requesterror_web_login">Por favor, iniciar sesión a través https://www.facebook.com o https://m.facebook.com para volver a activar la aplicación para conectar con Facebook.</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Iniciar sesión…</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Sesión iniciada</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">No has iniciado sesión</string>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-es/base_strings.xml -->
+    <eat-comment/>
+    <string msgid="2785372108150982144" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> necesita uno o varios servicios de Google Play que no están disponibles en este momento. Ponte en contacto con el desarrollador para obtener ayuda."</string>
+    <string msgid="7334167077229901382" name="common_google_play_services_enable_button">"Habilitar los Servicios de Google Play"</string>
+    <string msgid="2016066508617425489" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que no habilites los Servicios de Google Play."</string>
+    <string msgid="4763733806837472840" name="common_google_play_services_enable_title">"Habilita los Servicios de Google Play"</string>
+    <string msgid="5765996826213593005" name="common_google_play_services_install_button">"Descargar los Servicios de Google Play"</string>
+    <string msgid="1545874412485515659" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará si los Servicios de Google Play no están instalados en tu teléfono."</string>
+    <string msgid="2742131317258851812" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará si los Servicios de Google Play no están instalados en tu tablet."</string>
+    <string msgid="2110712637922504348" name="common_google_play_services_install_title">"Descargar los Servicios de Google Play"</string>
+    <string msgid="8004809446015217370" name="common_google_play_services_invalid_account_text">"La cuenta especificada no existe en este dispositivo. Selecciona otra cuenta."</string>
+    <string msgid="9894539456463288" name="common_google_play_services_invalid_account_title">"Cuenta no válida"</string>
+    <string msgid="2602915190038884860" name="common_google_play_services_network_error_text">"Se necesita una conexión de datos para establecer conexión con los Servicios de Google Play."</string>
+    <string msgid="5183831421651758225" name="common_google_play_services_network_error_title">"Error de red"</string>
+    <string msgid="3936796119014022295" name="common_google_play_services_notification_ticker">"Error de los Servicios de Google Play"</string>
+    <string msgid="6951442375899151085" name="common_google_play_services_restricted_profile_text">"No se admite el acceso a las cuentas desde un perfil restringido."</string>
+    <string msgid="4958149393843193760" name="common_google_play_services_restricted_profile_title">"Perfil restringido"</string>
+    <string msgid="59739986196915578" name="common_google_play_services_sign_in_failed_text">"Error al iniciar sesión en la cuenta especificada. Selecciona otra cuenta."</string>
+    <string msgid="8431204498860131150" name="common_google_play_services_sign_in_failed_title">"Error al iniciar sesión"</string>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/res/values-es/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> tiene problemas con los servicios de Google Play. Si el problema persiste, ponte en contacto con el desarrollador para obtener ayuda."</string>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-es/base_strings.xml -->
+    <eat-comment/>
+    <string msgid="4291190028362992831" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> se basa en los Servicios de Google Play, pero no es compatible con tu dispositivo. Ponte en contacto con el fabricante para obtener asistencia."</string>
+    <string msgid="909734065366822541" name="common_google_play_services_unsupported_title">"Servicios de Google Play"</string>
+    <string msgid="2221302284291941971" name="common_google_play_services_update_button">"Actualizar"</string>
+    <string msgid="6230553430311881723" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará hasta que no actualices los Servicios de Google Play."</string>
+    <string msgid="2926201203597631481" name="common_google_play_services_update_title">"Actualiza los Servicios de Google Play"</string>
+    <string msgid="1576144479907495032" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará hasta que finalice la actualización en curso de los Servicios de Google Play."</string>
+    <string msgid="1604540693139938838" name="common_google_play_services_updating_title">"Actualizando Servicios de Google Play"</string>
+    <string msgid="8334920661858223093" name="common_google_play_services_wear_update_text">"Se necesita una nueva versión de los Servicios de Google Play. Se actualizará en breve."</string>
+    <string msgid="311697239335516384" name="common_open_on_phone">"Abrir en teléfono"</string>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Iniciar sesión"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Iniciar sesión con Google"</string>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.10.0/res/values-es/values-es.xml -->
+    <eat-comment/>
+    <string name="dgts__call_me">Llámame</string>
+    <string name="dgts__calling">Llamando…</string>
+    <string name="dgts__confirmation_code">Código de confirmación</string>
+    <string name="dgts__confirmation_edit_hint">Ingresa el código de 6 dígitos que te enviamos</string>
+    <string name="dgts__confirmation_error">No se puede confirmar tu número de teléfono</string>
+    <string name="dgts__confirmation_error_alternative">Lo sentimos, estamos teniendo problemas para enviarte un código de confirmación.</string>
+    <string name="dgts__confirmation_expired">Este código ha caducado. Solicitar el reenvío del código de confirmación.</string>
+    <string name="dgts__continue">Continuar</string>
+    <string name="dgts__digits_logo_desc">ícono del logo de digits</string>
+    <string name="dgts__digits_logo_name_desc">nombre del logo de digits</string>
+    <string name="dgts__dismiss">Descartar</string>
+    <string name="dgts__done">Listo</string>
+    <string name="dgts__email_request_edit_hint">Dirección de correo electrónico</string>
+    <string name="dgts__email_request_title">Introducir dirección de correo electrónico</string>
+    <string name="dgts__find_your_friends">Encuentra a tus amigos</string>
+    <string name="dgts__image_header_description">Encabezado de imagen para inicio de sesión</string>
+    <string name="dgts__invalid_email">Correo electrónico no válido. Inténtalo de nuevo</string>
+    <string name="dgts__login_digits_text">Usar mi número de teléfono</string>
+    <string name="dgts__network_error">Revisa tu red e inténtalo de nuevo.</string>
+    <string name="dgts__not_now">Ahora no</string>
+    <string name="dgts__okay">Aceptar</string>
+    <string name="dgts__phone_number_edit_hint">Tu número</string>
+    <string name="dgts__phone_number_text">Introduce tu número de teléfono</string>
+    <string name="dgts__pin_code_verification_title">Ingresa el código de doble verificación</string>
+    <string name="dgts__resend_confirmation_button_code">Reenviar código</string>
+    <string name="dgts__resend_confirmation_text">Reenviar código de confirmación</string>
+    <string name="dgts__sending">Enviando…</string>
+    <string name="dgts__success_desc">Icono Éxito</string>
+    <string name="dgts__try_again">Reintentar</string>
+    <string name="dgts__try_again_confirmation">Revisa tu código e inténtalo de nuevo.</string>
+    <string name="dgts__try_again_email">Revisa tu correo electrónico e inténtalo de nuevo</string>
+    <string name="dgts__try_again_phone_number">Revisa tu número e inténtalo de nuevo.</string>
+    <string name="dgts__try_another_phone">Intenta con otro número de teléfono </string>
+    <string name="dgts__unsupported_operator_error">No se pudo enviar un mensaje SMS a este número.</string>
+    <string name="dgts__upload_contacts">Usamos Digits by Twitter para encontrar a amigos tuyos que usen esta aplicación. Cuando pulses \"Aceptar\", subiremos tu libreta de direcciones a Digits by Twitter para ayudarte a encontrar usuarios de %1$s que conozcas o ayudar a otros usuarios de %1$s a encontrarte.</string>
+    <string name="dgts__verification_code">Código de verificación</string>
+    <string name="dgts_pin_code_terms">Ya has establecido un código de doble verificación en digits.com</string>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-es/values-es.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.5/res/values-es/values-es.xml -->
+    <eat-comment/>
+    <string name="tw__allow_btn_txt">Permitir</string>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-es/values-es.xml -->
+    <eat-comment/>
+    <string name="tw__like_tweet">Darle Me gusta al Tweet</string>
+    <string name="tw__liked_tweet">Deshacer Me gusta</string>
+    <string name="tw__loading_tweet">Cargando Tweet</string>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.5/res/values-es/values-es.xml -->
+    <eat-comment/>
+    <string name="tw__login_btn_txt">Inicia sesión con Twitter</string>
+    <string name="tw__not_now_btn_txt">Ahora no</string>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-es/values-es.xml -->
+    <eat-comment/>
+    <string name="tw__pause">pausar</string>
+    <string name="tw__play">reproducir</string>
+    <string name="tw__relative_date_format_long">d/M/y</string>
+    <string name="tw__relative_date_format_short">d \'de\' MMM</string>
+    <string name="tw__replay">repetir</string>
+    <string name="tw__retweeted_by_format">Retwitteado por %1$s</string>
+    <string name="tw__share_content_format">Échale un vistazo al Tweet de \@%1$s\: https://twitter.com/%1$s/status/%2$s</string>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.5/res/values-es/values-es.xml -->
+    <eat-comment/>
+    <string name="tw__share_email_desc">Permitir que %1$s acceda a la dirección de correo electrónico asociada a tu cuenta de Twitter \@%2$s de modo que %1$s pueda usarla de acuerdo a su política de privacidad. Por ejemplo, %1$s podría enviarte actualizaciones y otra información a esa dirección.</string>
+    <string name="tw__share_email_title">Comparte tu dirección de correo electrónico</string>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.10.0/res/values-es/values-es.xml -->
+    <eat-comment/>
+    <string name="tw__share_subject_format">Tweet de %1$s (\@%2$s)</string>
+    <string name="tw__share_tweet">Compartir Tweet</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
+</resources>

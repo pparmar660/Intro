@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:intro="http://schemas.android.com/apk/res-auto"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/sunday_night_bg"
+              android:orientation="vertical">
+
+    <com.facebook.widget.LoginButton
+        android:id="@+id/facebook_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/default_padding_half"
+        android:paddingTop="@dimen/default_padding_half">
+
+        <ImageButton
+            android:id="@+id/back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/default_triple_padding"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow"/>
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/set_profile"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_35"
+            intro:customFont="filosofia-italic.ttf"/>
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/default_padding"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_22"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@dimen/image_weight"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingRight="@dimen/default_padding"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_padding"
+            android:layout_marginTop="@dimen/default_padding"
+            android:layout_weight="1"
+            android:background="@color/et_bg">
+
+            <ImageView
+                android:id="@+id/imageview1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cameraplus"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:id="@+id/imageview1cros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/default_padding_half"
+                android:contentDescription="@string/app_name"
+                android:background="@drawable/cross_small"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_padding"
+            android:layout_weight="1"
+            android:background="@color/et_bg">
+
+            <!--<ImageView
+                android:id="@+id/imageview2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/et_bg"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/cameraplus"/>
+-->
+
+            <ImageView
+                android:id="@+id/imageview2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cameraplus"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:id="@+id/imageview2cros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/default_padding_half"
+                android:contentDescription="@string/app_name"
+                android:background="@drawable/cross_small"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_padding"
+            android:layout_marginTop="@dimen/default_padding"
+            android:layout_weight="1"
+            android:background="@color/et_bg">
+
+            <ImageView
+                android:id="@+id/imageview3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cameraplus"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:id="@+id/imageview3cros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/default_padding_half"
+                android:contentDescription="@string/app_name"
+                android:background="@drawable/cross_small"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/email_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingRight="@dimen/default_padding"
+        android:layout_weight="0.47"
+        android:orientation="vertical">
+
+        <com.intro.customviews.CustomEditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_45"
+            android:background="@color/et_bg"
+            android:hint="name"
+            android:inputType="textCapSentences"
+            android:paddingLeft="@dimen/default_padding"
+            android:paddingRight="@dimen/default_padding"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/et_placeholder"
+            android:textCursorDrawable="@drawable/white_cursor"
+            android:textSize="@dimen/textsize_10"
+            intro:customFont="boton.ttf"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_padding"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <com.intro.customviews.CustomEditText
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_45"
+                android:layout_weight="1"
+                android:background="@color/et_bg"
+                android:hint="18"
+                android:maxLength="2"
+                android:inputType="number"
+                android:paddingLeft="@dimen/default_padding"
+                android:paddingRight="@dimen/default_triple_padding"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/et_placeholder"
+                android:textCursorDrawable="@drawable/white_cursor"
+                android:textSize="@dimen/textsize_10"
+                intro:customFont="boton.ttf"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/default_padding"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:button="@drawable/custome_check_box_blue"
+                    android:paddingLeft="@dimen/default_padding"
+                    android:checked="false"/>
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/maletxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Male"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_26"
+                    intro:customFont="boton.ttf"/>
+
+                <CheckBox
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/default_padding"
+                    android:button="@drawable/custome_check_box"
+                    android:paddingLeft="@dimen/default_padding"
+                    android:checked="false"/>
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/femaletxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Female"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_26"
+                    intro:customFont="boton.ttf"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.intro.customviews.CustomEditText
+            android:id="@+id/aboutMe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/default_padding"
+            android:background="@color/et_bg"
+            android:gravity="top|left"
+            android:hint="About me...(not required)"
+            android:inputType="textMultiLine|textCapSentences"
+            android:lineSpacingExtra = "20sp"
+            android:padding="@dimen/default_padding"
+            android:textColor="@color/white"
+            android:textColorHint="@color/et_placeholder"
+            android:textCursorDrawable="@drawable/white_cursor"
+            android:textSize="@dimen/textsize_22"
+            />
+    </LinearLayout>
+
+    <com.intro.customviews.CustomTextView
+        android:id="@+id/save_pro"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/default_padding"
+        android:layout_marginLeft="@dimen/default_padding"
+        android:layout_marginRight="@dimen/default_padding"
+        android:layout_weight="0.08"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/savepro"
+        android:textColor="@color/pink_text"
+        android:textSize="@dimen/textsize_30"
+        intro:customFont="boton.ttf"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingRight="@dimen/default_padding"
+        android:layout_weight="0.2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/default_padding"
+            android:background="@drawable/logo_2"/>
+
+    </RelativeLayout>
+</LinearLayout>
+<!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/layout/activity_setprofile.xml -->

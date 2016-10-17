@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/chatRelative"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:intro="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/sunday_night_bg"
+                android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/mainLayout"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:orientation="horizontal"
+
+            android:paddingBottom="@dimen/default_padding_half"
+            android:paddingTop="@dimen/default_padding_half">
+
+            <ImageButton
+                android:id="@+id/back_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/default_triple_padding"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/arrow"/>
+
+            <com.intro.customviews.CustomTextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:ellipsize="marquee"
+                android:maxWidth="200dp"
+                android:singleLine="true"
+                android:text="Ryan"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_35"
+                intro:customFont="filosofia-italic.ttf"/>
+
+            <ImageButton
+                android:id="@+id/favImage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/default_triple_padding"
+                android:background="@drawable/star"
+                android:contentDescription="@string/app_name"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rounded_img_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <com.intro.customviews.CustomTextView
+                android:id="@+id/time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/default_padding"
+                android:textColor="@color/pink_text"
+                intro:customFont="boton.ttf"/>
+
+            <!--<com.intro.customviews.CustomTextView-->
+            <!--android:id="@+id/eventTimeTextView"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:drawableLeft="@drawable/watch"-->
+            <!--android:drawablePadding="@dimen/default_padding"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="@color/pink_text"-->
+            <!--android:textSize="@dimen/textsize_14"-->
+            <!--android:visibility="gone"-->
+            <!--intro:customFont="boton.ttf"/>-->
+            s
+            <com.intro.customviews.ImageViewRounded
+                android:id="@+id/rounded_img_1"
+                android:layout_width="@dimen/circular_image_60"
+                android:layout_height="@dimen/circular_image_60"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_toLeftOf="@+id/rounded_img_2"
+                android:background="@drawable/cameraplus"/>
+
+            <com.intro.customviews.ImageViewRounded
+                android:id="@+id/rounded_img_2"
+                android:layout_width="@dimen/circular_image_60"
+                android:layout_height="@dimen/circular_image_60"
+                android:layout_margin="@dimen/default_padding"
+                android:layout_toLeftOf="@+id/rounded_img_3"
+                android:background="@drawable/cameraplus"/>
+
+            <com.intro.customviews.ImageViewRounded
+                android:id="@+id/rounded_img_3"
+                android:layout_width="@dimen/circular_image_60"
+                android:layout_height="@dimen/circular_image_60"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/default_padding"
+                android:background="@drawable/cameraplus"/>
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/chatList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/messageLinear"
+            android:layout_below="@+id/rounded_img_layout"
+            android:stackFromBottom="false"
+            android:transcriptMode="alwaysScroll"
+            />
+
+        <LinearLayout
+            android:id="@+id/messageLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray_text"
+            android:padding="@dimen/default_padding"
+            android:weightSum="2">
+
+            <com.intro.customviews.CustomEditText
+                android:id="@+id/message_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_padding"
+                android:layout_toLeftOf="@+id/send_bt"
+                android:layout_weight="1.6"
+                android:background="@drawable/edittaxt_chat"
+                android:inputType="textMultiLine|textCapSentences"
+                android:padding="@dimen/default_padding_half"/>
+
+            <com.intro.customviews.CustomTextView
+                android:id="@+id/send_bt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/default_double_padding"
+                android:layout_weight=".4"
+                android:text="send"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_20"
+                intro:customFont="boton.ttf"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/blackCover"
+        android:layout_width="match_parent"
+        android:background="@color/transprent_black"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:id="@+id/starImage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/default_padding_half"
+            android:layout_marginRight="@dimen/default_triple_padding"
+            android:background="@drawable/star"
+            android:contentDescription="@string/app_name"/>
+
+        <View
+            android:id="@+id/view_line_vertical"
+            android:layout_width="2dp"
+            android:layout_height="@dimen/view_vertical"
+            android:background="@color/blue"
+            android:layout_marginTop="@dimen/default_triple_padding"
+            android:layout_centerHorizontal="true"/>
+
+        <View
+            android:id="@+id/view_line_horizontal"
+            android:layout_width="@dimen/view_horizontal"
+            android:layout_height="2dp"
+            android:background="@color/blue"
+            android:layout_toRightOf="@+id/view_line_vertical"
+            android:layout_marginTop="@dimen/default_triple_padding"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/decription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="left"
+            android:layout_margin="@dimen/default_double_padding"
+            android:text="@string/if_you_favorite_your_match_and_they_favorite_you_back_you_can_chat_with_them_even_after_your_go_live_event_expires_but_remember_the_whole_point_is_to_meet_your_match_now_so_go_meet_up"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/textsize_24"/>
+
+        <TextView
+            android:id="@+id/okay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/default_padding"
+            android:paddingBottom="@dimen/default_padding"
+            android:paddingRight="@dimen/default_double_padding"
+            android:paddingLeft="@dimen/default_double_padding"
+            android:text="@string/okay"
+            android:textColor="@color/black"
+            android:layout_below="@id/decription"
+            android:textSize="@dimen/textsize_22"
+            android:layout_marginBottom="@dimen/padding_30"
+            android:layout_marginRight="@dimen/default_double_padding"
+            android:layout_alignParentRight="true"
+            android:background="@color/sky_blue"
+            android:layout_marginTop="@dimen/default_double_padding"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/layout/activity_chat.xml -->

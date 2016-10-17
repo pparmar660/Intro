@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <corners
+        android:bottomLeftRadius="@dimen/default_padding_half"
+        android:topLeftRadius="@dimen/default_padding_half" />
+
+    <solid android:color="@color/white" />
+
+</shape><!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/drawable/left_button_selector.xml -->

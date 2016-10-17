@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:intro="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunday_night_bg" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/default_padding_half"
+        android:paddingTop="@dimen/default_padding_half" >
+
+        <ImageButton
+            android:id="@+id/back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/default_triple_padding"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow" />
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/get_ready"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_35"
+            intro:customFont="filosofia-italic.ttf" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/default_double_padding" >
+
+            <RelativeLayout
+                android:id="@+id/selectRadius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/selectRadiusTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/select_search_radius"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_26"
+                    intro:customFont="filosofia-italic.ttf" />
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/inmiles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/in_miles"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_14"
+                    intro:customFont="filosofia-italic.ttf" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/selectRadiusLinear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selectRadius"
+                android:layout_marginTop="@dimen/very_small_text_size"
+                android:orientation="horizontal"
+                android:weightSum="4" >
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/btn_rad1"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/size_50"
+                    android:layout_weight="1"
+                    android:background="@drawable/left_button_selector"
+                    android:text="1/4"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_16"
+                    android:textColor="@color/pink"
+                    intro:customFont="boton.ttf" />
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/btn_rad2"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/size_50"
+                    android:layout_weight="1"
+                    android:background="@drawable/middle_border_button"
+                    android:text="1/2"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_16"
+                    android:textColor="@color/white"
+                    intro:customFont="boton.ttf" />
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/btn_rad3"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/size_50"
+                    android:layout_weight="1"
+                    android:background="@drawable/middle_border_button"
+                    android:text="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_16"
+                    android:textColor="@color/white"
+                    intro:customFont="boton.ttf" />
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/btn_rad4"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/size_50"
+                    android:layout_weight="1"
+                    android:background="@drawable/right_border_button"
+                    android:text="2"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_16"
+                    android:textColor="@color/white"
+                    intro:customFont="boton.ttf" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/howLong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selectRadiusLinear"
+                android:layout_marginTop="@dimen/default_triple_padding"
+                android:orientation="horizontal" >
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/selectTimeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/select_time"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_26"
+                    intro:customFont="filosofia-italic.ttf" />
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/hours"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/hours"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_14"
+                    intro:customFont="filosofia-italic.ttf" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/selectTimeLinear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/howLong"
+                android:layout_marginTop="@dimen/very_small_text_size"
+                android:orientation="horizontal" >
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/btn_time1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/size_50"
+                    android:layout_weight="1"
+                    android:background="@drawable/left_button_selector"
+                    android:text="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_16"
+                    android:textColor="@color/pink"
+                    intro:customFont="boton.ttf" />
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/btn_time2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/size_50"
+                    android:layout_weight="1"
+                    android:background="@drawable/middle_border_button"
+                    android:text="2"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_16"
+                    android:textColor="@color/white"
+                    intro:customFont="boton.ttf" />
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/btn_time3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/size_50"
+                    android:layout_weight="1"
+                    android:background="@drawable/middle_border_button"
+                    android:text="3"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_16"
+                    android:textColor="@color/white"
+                    intro:customFont="boton.ttf" />
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/btn_time4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/size_50"
+                    android:layout_weight="1"
+                    android:background="@drawable/right_border_button"
+                    android:text="4"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_16"
+                    android:textColor="@color/white"
+                    intro:customFont="boton.ttf" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/your3words"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selectTimeLinear"
+                android:layout_marginTop="@dimen/default_triple_padding"
+                android:orientation="horizontal" >
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/threeWordsIntroTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/three_words_intro"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_26"
+                    intro:customFont="filosofia-italic.ttf" />
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/optional"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/optional"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_14"
+                    intro:customFont="filosofia-italic.ttf" />
+            </RelativeLayout>
+
+            <com.intro.customviews.CustomEditText
+                android:id="@+id/et_threeWordsIntro"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_50"
+                android:layout_below="@+id/your3words"
+                android:layout_marginTop="@dimen/very_small_text_size"
+                android:background="@drawable/edittext_button"
+                android:hint="@string/let_meet_up"
+                android:inputType="textCapWords"
+                android:paddingBottom="@dimen/very_small_padding"
+                android:paddingLeft="@dimen/default_padding"
+                android:paddingRight="@dimen/default_padding"
+                android:paddingTop="@dimen/very_small_padding"
+                android:textColor="@color/white"
+                android:textColorHint="@color/et_placeholder"
+                android:textCursorDrawable="@drawable/white_cursor"
+                android:textSize="@dimen/textsize_20"
+                intro:customFont="boton.ttf" />
+
+            <com.intro.customviews.CustomTextView
+                android:id="@+id/previewButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_threeWordsIntro"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/default_double_padding"
+                android:gravity="center"
+                android:text="@string/preview"
+                android:textColor="@color/pink_btn"
+                android:textSize="@dimen/textsize_20"
+                intro:customFont="boton.ttf" />
+
+            <com.intro.customviews.CustomTextView
+                android:id="@+id/goIntroButton"
+                android:layout_width="@dimen/size_230"
+                android:layout_height="@dimen/size_50"
+                android:layout_below="@id/previewButton"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/padding_60"
+                android:background="@drawable/go_intro_text_button"
+                android:gravity="center"
+                android:text="@string/go_intro"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_26"
+                intro:customFont="boton.ttf" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout><!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/layout/activity_getready.xml -->

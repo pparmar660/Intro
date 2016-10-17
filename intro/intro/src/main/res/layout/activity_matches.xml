@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/chatRelative"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:intro="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/sunday_night_bg"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/mainLayout"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/default_padding_half"
+            android:paddingTop="@dimen/default_padding_half">
+
+            <ImageButton
+                android:id="@+id/back_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/default_triple_padding"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/arrow"/>
+
+            <com.intro.customviews.CustomTextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:ellipsize="marquee"
+                android:maxWidth="200dp"
+                android:singleLine="true"
+                android:text="Matches"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_35"
+                intro:customFont="filosofia-italic.ttf"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/header"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <com.intro.customviews.CustomTextView
+                android:id="@+id/breadcrumb_header"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.06"
+                android:background="@color/light_gray"
+                android:gravity="center"
+                android:padding="@dimen/default_padding_half"
+                android:text="@string/matches_breadcrumb_txt"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_16"
+                intro:customFont="boton.ttf"/>
+
+            <com.intro.customviews.HorizontalListView
+                android:id="@+id/breadcrumbHorizontalList"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="@color/breadcrumb_like_header_color"/>
+
+            <!--android:stackFromBottom="false"
+            android:transcriptMode="alwaysScroll"-->
+
+            <LinearLayout
+                android:id="@+id/ll_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="0.1"
+                android:background="@color/pink_btn"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/default_padding_half">
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/liveBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:background="@color/pink_btn"
+                    android:gravity="center"
+                    android:text="@string/matches_live_txt"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_16"
+                    intro:customFont="boton.ttf"/>
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/favBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:background="@color/blue"
+                    android:gravity="center"
+                    android:text="@string/matches_fav_txt"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_16"
+                    intro:customFont="boton.ttf"/>
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/matchesList"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.56"
+                android:background="@color/white"
+                android:choiceMode="singleChoice"
+                android:clickable="false"
+                android:descendantFocusability="blocksDescendants"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:listSelector="@drawable/listitembackground"/>
+
+            <RelativeLayout
+                android:id="@+id/messageLinear"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.08"
+                android:background="@color/black">
+
+                <com.intro.customviews.CustomTextView
+                    android:id="@+id/addTimeBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/default_double_padding"
+                    android:drawableLeft="@drawable/red_clock"
+                    android:drawablePadding="@dimen/default_padding"
+                    android:gravity="center"
+                    android:padding="@dimen/default_padding"
+                    android:text="@string/match_add_time"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_20"
+                    intro:customFont="boton.ttf"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+    <!--for cover layout-->
+
+    <RelativeLayout
+        android:id="@+id/blackCover"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:weightSum="1.1">
+
+            <LinearLayout
+                android:id="@+id/uperListLayout"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="0dp"
+                android:visibility="visible"
+                android:layout_weight="0.356">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transprent_black"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/default_padding_half"
+                    android:paddingTop="@dimen/default_padding_half">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:visibility="invisible"
+                        android:layout_marginLeft="@dimen/default_triple_padding"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/arrow"/>
+
+                    <com.intro.customviews.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:ellipsize="marquee"
+                        android:maxWidth="200dp"
+                        android:singleLine="true"
+                        android:visibility="invisible"
+                        android:text="Matches"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize_35"
+                        intro:customFont="filosofia-italic.ttf"/>
+
+                </RelativeLayout>
+                <!--<com.intro.customviews.CustomTextView
+                    android:id="@+id/breadcrumb_header1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:background="@color/transprent_black"
+                    android:gravity="center"
+                    android:padding="@dimen/default_padding_half"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_16"
+                    intro:customFont="boton.ttf"/>-->
+
+                <RelativeLayout
+                    android:id="@+id/breadcrumbHorizontalLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="13"
+                    android:background="@drawable/match_breadcrumb_tooltip"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@color/transprent_black"
+                android:layout_height="0dp"
+                android:id="@+id/uperListText"
+                android:visibility="gone"
+                android:layout_weight="0.34">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_18"
+                    android:gravity="left"
+                    android:textColor="@color/white"
+                    android:layout_margin="@dimen/default_double_padding"
+                    android:text="@string/also_if_yo"
+                    android:background="@android:color/transparent"
+                    android:choiceMode="singleChoice"/>
+
+                <TextView
+                    android:id="@+id/uperOkey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/default_padding"
+                    android:paddingBottom="@dimen/default_padding"
+                    android:paddingRight="@dimen/default_double_padding"
+                    android:paddingLeft="@dimen/default_double_padding"
+                    android:text="@string/okay"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_20"
+                    android:layout_margin="@dimen/default_padding"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/sky_blue"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/belowList"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:background="@drawable/match_live_tooltip"
+                android:layout_weight="0.66"/>
+
+            <RelativeLayout
+                android:id="@+id/layoutBelowText"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/transprent_black"
+                android:layout_weight="0.66">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_20"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_margin="@dimen/default_double_padding"
+                    android:text="@string/you_have_7_days_to_chat_with_breadcrumb_matches_before_they_go_dormant_once_they_are_dormant_we_will_auto_match_you_in_a_go_live_event_if_they_are_near"
+                    android:background="@android:color/transparent"
+                    android:choiceMode="singleChoice"/>
+
+                <TextView
+                    android:id="@+id/okay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/default_padding"
+                    android:paddingBottom="@dimen/default_padding"
+                    android:paddingRight="@dimen/default_double_padding"
+                    android:paddingLeft="@dimen/default_double_padding"
+                    android:text="@string/okay"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_18"
+                    android:layout_margin="@dimen/padding_30"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/sky_blue"
+                    android:layout_marginTop="@dimen/default_double_padding"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cropper/cropper.iml" filepath="$PROJECT_DIR$/cropper/cropper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebookSDK/facebookSDK.iml" filepath="$PROJECT_DIR$/facebookSDK/facebookSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intro.iml" filepath="$PROJECT_DIR$/intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intro/intro-intro.iml" filepath="$PROJECT_DIR$/intro/intro-intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iofabricsdkandroid_fabric/iofabricsdkandroid_fabric.iml" filepath="$PROJECT_DIR$/iofabricsdkandroid_fabric/iofabricsdkandroid_fabric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+    </modules>
+  </component>
+</project>

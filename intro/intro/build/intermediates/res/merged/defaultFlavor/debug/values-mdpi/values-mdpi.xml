@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/values-mdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="bioSize">70dp</dimen>
+    <item format="float" name="circular_dot" type="dimen">11</item>
+    <dimen name="clocksize">25dp</dimen>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/intro/facebookSDK/unspecified/res/values-mdpi/values-mdpi.xml -->
+    <eat-comment/>
+    <dimen name="com_facebook_picker_divider_width">1px</dimen>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/values-mdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="distancesize">12sp</dimen>
+    <item format="float" name="image_weight" type="dimen">0.26</item>
+    <dimen name="imagesize">50dp</dimen>
+    <dimen name="matchLayoutSize">66dp</dimen>
+    <dimen name="nameagesize">18sp</dimen>
+    <dimen name="queueheadertextsize">35sp</dimen>
+    <dimen name="queuelargetextsize">30sp</dimen>
+    <dimen name="queueothertextsize">16sp</dimen>
+    <dimen name="queuetextsize">18sp</dimen>
+    <dimen name="timesize">8sp</dimen>
+    <dimen name="view_horizontal">70dp</dimen>
+    <dimen name="view_vertical">90dp</dimen>
+</resources>

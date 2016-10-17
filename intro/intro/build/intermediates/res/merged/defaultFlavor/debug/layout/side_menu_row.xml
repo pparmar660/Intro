@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:intro="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative"
+    android:padding="@dimen/padding_12"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/slidingItemsImgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/default_double_padding"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_launcher" />
+
+    <com.intro.customviews.CustomTextView
+        android:id="@+id/side_menu_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/padding_12"
+        android:layout_toRightOf="@+id/slidingItemsImgView"
+        android:contentDescription="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize_26"
+        intro:customFont="boton.ttf" />
+
+</RelativeLayout><!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/layout/side_menu_row.xml -->

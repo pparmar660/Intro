@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/values-xhdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="bioSize">110dp</dimen>
+    <item format="float" name="circular_dot" type="dimen">13</item>
+    <dimen name="clocksize">30dp</dimen>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/intro/facebookSDK/unspecified/res/values-xhdpi/values-xhdpi.xml -->
+    <eat-comment/>
+    <dimen name="com_facebook_picker_divider_width">2px</dimen>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/values-xhdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="distancesize">16sp</dimen>
+    <item format="float" name="image_weight" type="dimen">0.23</item>
+    <dimen name="imagesize">60dp</dimen>
+    <dimen name="margin">20dp</dimen>
+    <dimen name="matchLayoutSize">76dp</dimen>
+    <dimen name="nameagesize">22sp</dimen>
+    <dimen name="queueheadertextsize">38sp</dimen>
+    <dimen name="queuelargetextsize">40sp</dimen>
+    <dimen name="queueothertextsize">18sp</dimen>
+    <dimen name="queuetextsize">22sp</dimen>
+    <dimen name="timesize">12sp</dimen>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.5/res/values-xhdpi/values-xhdpi.xml -->
+    <eat-comment/>
+    <dimen name="tw__login_btn_text_size">18sp</dimen>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/values-xhdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="view_horizontal">105dp</dimen>
+    <dimen name="view_line_profile">75dp</dimen>
+    <dimen name="view_vertical">145dp</dimen>
+</resources>

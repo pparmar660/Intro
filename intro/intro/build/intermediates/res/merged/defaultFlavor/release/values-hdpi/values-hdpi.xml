@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/values-hdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="bioSize">80dp</dimen>
+    <item format="float" name="circular_dot" type="dimen">12</item>
+    <dimen name="clocksize">25dp</dimen>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/intro/facebookSDK/unspecified/res/values-hdpi/values-hdpi.xml -->
+    <eat-comment/>
+    <dimen name="com_facebook_picker_divider_width">1px</dimen>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/values-hdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="distancesize">14sp</dimen>
+    <item format="float" name="image_weight" type="dimen">0.23</item>
+    <dimen name="imagesize">50dp</dimen>
+    <dimen name="margin">20dp</dimen>
+    <dimen name="matchLayoutSize">66dp</dimen>
+    <dimen name="nameagesize">20sp</dimen>
+    <dimen name="queueheadertextsize">36sp</dimen>
+    <dimen name="queuelargetextsize">32sp</dimen>
+    <dimen name="queueothertextsize">16sp</dimen>
+    <dimen name="queuetextsize">20sp</dimen>
+    <dimen name="textsize">20sp</dimen>
+    <dimen name="timesize">10sp</dimen>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.6.5/res/values-hdpi/values-hdpi.xml -->
+    <eat-comment/>
+    <dimen name="tw__login_btn_drawable_padding">5dp</dimen>
+    <dimen name="tw__login_btn_height">40dp</dimen>
+    <dimen name="tw__login_btn_left_padding">10dp</dimen>
+    <dimen name="tw__login_btn_right_padding">15dp</dimen>
+    <dimen name="tw__login_btn_text_size">16sp</dimen>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/values-hdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="view_horizontal">85dp</dimen>
+    <dimen name="view_line_profile">65dp</dimen>
+    <dimen name="view_vertical">110dp</dimen>
+    <!-- From: file:/D:/GIT/intro19_09_16/intro/intro/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-hdpi/values-hdpi.xml -->
+    <eat-comment/>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+          <item name="barLength">18.66dp</item>
+          <item name="gapBetweenBars">3.33dp</item>
+          <item name="drawableSize">24dp</item>
+     </style>
+</resources>

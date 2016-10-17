@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape android:shape="rectangle" >
+            <corners
+                android:bottomLeftRadius="@dimen/default_padding_half"
+                android:bottomRightRadius="0dp"
+                android:radius="@dimen/default_padding_half"
+                android:topLeftRadius="@dimen/default_padding_half"
+                android:topRightRadius="0dp" />
+
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+    <item
+        android:bottom="1dp"
+        android:left="1dp"
+        android:right="1dp"
+        android:top="1dp">
+        <shape android:shape="rectangle" >
+            <corners
+                android:bottomLeftRadius="@dimen/default_padding_half"
+                android:bottomRightRadius="0dp"
+                android:topLeftRadius="@dimen/default_padding_half"
+                android:topRightRadius="0dp" />
+
+            <solid android:color="@color/screen_background" />
+        </shape>
+    </item>
+
+</layer-list><!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/drawable/left_border_button.xml -->

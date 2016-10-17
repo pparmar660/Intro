@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/matchesLayout"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:intro="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/matchLayoutSize"
+                android:padding="@dimen/default_padding"
+                android:orientation="vertical"
+                android:background="@drawable/match_selector">
+
+    <com.intro.customviews.ImageViewRounded
+        android:id="@+id/profileImg"
+        android:layout_width="@dimen/imagesize"
+        android:layout_height="@dimen/imagesize"
+        android:background="@drawable/cameraplus"
+        android:contentDescription="@string/app_name"/>
+
+    <com.intro.customviews.CustomTextView
+        android:id="@+id/messageCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/message_count_blue"
+        android:padding="@dimen/default_padding_half"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_12"
+        intro:customFont="boton.ttf"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/default_padding"
+        android:layout_toRightOf="@+id/profileImg">
+
+        <RelativeLayout
+            android:id="@+id/personLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.intro.customviews.CustomTextView
+                android:id="@+id/personNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:ellipsize="marquee"
+                android:maxWidth="180dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/nameagesize"
+                intro:customFont="boton-bold.ttf"/>
+
+            <com.intro.customviews.CustomTextView
+                android:id="@+id/personAgeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/personNameTextView"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/nameagesize"
+                intro:customFont="boton.ttf"/>
+
+            <ImageView
+                android:id="@+id/clockImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/default_padding"
+                android:layout_marginTop="@dimen/default_padding_half"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/watch"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/personLayout"
+            android:layout_marginTop="@dimen/default_padding_half">
+
+            <com.intro.customviews.CustomTextView
+                android:id="@+id/diastanceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/distancesize"
+                intro:customFont="boton.ttf"/>
+
+            <com.intro.customviews.CustomTextView
+                android:id="@+id/timeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/default_padding"
+                android:layout_marginTop="@dimen/default_padding_half"
+                android:textColor="@color/pink"
+                android:textSize="@dimen/distancesize"
+                intro:customFont="boton.ttf"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/layout/matches_items.xml -->

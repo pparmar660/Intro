@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\GIT\intro19_09_16\intro\intro\src\androidTest\res"/><source path="D:\GIT\intro19_09_16\intro\intro\build\generated\res\rs\androidTest\defaultFlavor\debug"/><source path="D:\GIT\intro19_09_16\intro\intro\build\generated\res\resValues\androidTest\defaultFlavor\debug"/></dataSet><dataSet config="androidTestDefaultFlavor"><source path="D:\GIT\intro19_09_16\intro\intro\src\androidTestDefaultFlavor\res"/></dataSet><mergedItems/></merger>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:intro="http://schemas.android.com/apk/res-auto"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:id="@+id/breadcrumbLikeLayout"
+              android:padding="@dimen/default_padding">
+
+    <com.intro.customviews.ImageViewRounded
+        android:id="@+id/breadcrumbProfileImg"
+        android:layout_width="@dimen/imagesize"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingRight="@dimen/default_padding"
+        android:layout_marginTop="@dimen/default_padding_half"
+        android:layout_height="@dimen/imagesize"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"/>
+
+    <com.intro.customviews.CustomTextView
+        android:id="@+id/messageCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/message_count_blue"
+        android:padding="@dimen/default_padding_half"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_12"
+        intro:customFont="boton.ttf"
+        android:visibility="gone"/>
+
+    <com.intro.customviews.CustomTextView
+        android:id="@+id/breadcrumbTimeTextView"
+        android:layout_width="@dimen/matchLayoutSize"
+        android:layout_height="match_parent"
+        android:singleLine="false"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/default_padding_half"
+        android:layout_below="@+id/breadcrumbProfileImg"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/pink"
+        android:textSize="@dimen/distancesize"
+        intro:customFont="boton.ttf"/>
+
+</RelativeLayout><!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/layout/breadcrumb_list_item.xml -->

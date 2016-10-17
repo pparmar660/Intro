@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\GIT\intro19_09_16\intro\iofabricsdkandroid_fabric\src\main\res"/><source path="D:\GIT\intro19_09_16\intro\iofabricsdkandroid_fabric\build\generated\res\rs\debug"/><source path="D:\GIT\intro19_09_16\intro\iofabricsdkandroid_fabric\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug"><source path="D:\GIT\intro19_09_16\intro\iofabricsdkandroid_fabric\src\debug\res"/></dataSet><mergedItems/></merger>

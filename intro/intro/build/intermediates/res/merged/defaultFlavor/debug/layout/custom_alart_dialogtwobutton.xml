@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|center_vertical"
+    android:background="@drawable/custom_alart_dialog"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/default_triple_padding"
+        android:text="!ntro"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/message_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/default_padding"
+        android:gravity="center"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingRight="@dimen/default_padding"
+        android:text="You must enter all fields"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:id="@+id/linearLine"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/message_tv"
+        android:layout_marginTop="@dimen/default_padding"
+        android:background="@color/gray_text"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLine"
+        android:orientation="horizontal"
+        android:background="@color/gray_text"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/cancel_btn_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/padding_1"
+            android:padding="@dimen/default_padding"
+            android:text="Cancel"
+            android:background="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/blue_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ok_btn_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/padding_1"
+            android:gravity="center"
+            android:padding="@dimen/default_padding"
+            android:text="Setting"
+            android:background="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/blue_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/layout/custom_alart_dialogtwobutton.xml -->

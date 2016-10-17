@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/activity_queue_relative_layout"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:intro="http://schemas.android.com/apk/res-auto"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/queue_background"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_size"
+        android:background="@color/black"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/default_triple_padding"
+            android:background="@drawable/white_profile"
+            android:contentDescription="@string/app_name"/>
+
+        <!--hang_in_there-->
+
+        <ImageView
+            android:id="@+id/introLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="@dimen/default_padding"
+            android:paddingTop="@dimen/default_padding"
+            android:src="@drawable/logo_2"/>
+
+
+        <ImageView
+            android:id="@+id/queue_matches"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/default_triple_padding"
+            android:layout_marginRight="@dimen/default_triple_padding"
+            android:background="@drawable/top_chat"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/queue_rel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:layout_below="@id/header"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/threewordtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="@dimen/default_double_padding"
+            android:layout_marginRight="@dimen/default_double_padding"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:ellipsize="marquee"
+            android:shadowColor="@color/black"
+            android:shadowDx="-2"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/queuelargetextsize"
+            intro:customFont="boton.ttf"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/null_user_rel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:layout_below="@id/header"
+        android:orientation="vertical"
+        android:padding="@dimen/default_triple_padding"
+        android:visibility="gone">
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/queue_null_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/default_triple_padding"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/default_padding"
+            android:paddingTop="@dimen/default_padding"
+            android:text="@string/queue_null_text1"
+            android:textColor="@color/sky_blue"
+            android:textSize="@dimen/queuetextsize"
+            intro:customFont="filosofia-italic.ttf"/>
+
+        <RelativeLayout
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/queue_null_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/default_double_padding"
+            android:background="@drawable/refresh"/>
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/intro_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/refresh"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/padding_30"
+            android:text="@string/introUpdate"
+            android:textColor="@color/pink_btn"
+            android:textSize="@dimen/queuetextsize"
+            intro:customFont="filosofia-italic.ttf"/>
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/null_user_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/intro_update"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="@dimen/default_padding"
+            android:paddingBottom="@dimen/default_padding"
+            android:paddingTop="@dimen/default_padding"
+            android:text="@string/refresh_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/queueothertextsize"
+            intro:customFont="boton.ttf"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/blur_rel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:layout_below="@id/header"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/image_dp_blur"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/onewordtext_blur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/default_double_padding"
+            android:layout_marginRight="@dimen/default_double_padding"
+            android:layout_marginTop="@dimen/default_triple_padding"
+            android:paddingBottom="10dp"
+            android:ellipsize="marquee"
+            android:gravity="left|center_vertical"
+            android:shadowColor="@color/black"
+            android:shadowDx="-2"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/queuelargetextsize"
+            intro:customFont="boton.ttf"/>
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/twowordtext_blur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/onewordtext_blur"
+            android:layout_marginLeft="@dimen/default_double_padding"
+            android:layout_marginRight="@dimen/default_double_padding"
+            android:layout_marginTop="@dimen/default_triple_padding"
+            android:paddingBottom="10dp"
+            android:ellipsize="marquee"
+            android:gravity="left|center_vertical"
+            android:shadowColor="@color/black"
+            android:shadowDx="-2"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/queuelargetextsize"
+            intro:customFont="boton.ttf"/>
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/threewordtext_blur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/twowordtext_blur"
+            android:layout_marginLeft="@dimen/default_double_padding"
+            android:layout_marginRight="@dimen/default_double_padding"
+            android:layout_marginTop="@dimen/default_triple_padding"
+            android:paddingBottom="10dp"
+            android:ellipsize="marquee"
+            android:gravity="left|center_vertical"
+            android:shadowColor="@color/black"
+            android:shadowDx="-2"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/queuelargetextsize"
+            intro:customFont="boton.ttf"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bioSize"
+            android:layout_above="@+id/button_blur_lay"
+            android:layout_below="@+id/threewordtext_blur"
+            android:layout_marginTop="@dimen/default_double_padding">
+
+            <com.intro.customviews.CustomTextView
+                android:id="@+id/bio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="@dimen/default_double_padding"
+                android:layout_marginRight="@dimen/default_double_padding"
+                android:shadowColor="@color/black"
+                android:lineSpacingExtra="10dp"
+                android:text="@string/breadcrumb_like_text"
+                android:shadowDx="-2"
+                android:shadowDy="2"
+                android:shadowRadius="1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_20"
+                intro:customFont="filosofia-italic.ttf"/>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/button_blur_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/dislike_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/dislike"/>
+
+            <ImageButton
+                android:id="@+id/like_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/like"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_50"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black"
+        android:visibility="visible">
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/default_double_padding"
+            android:ellipsize="marquee"
+            android:maxWidth="230dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_24"
+            intro:customFont="boton-bold.ttf"/>
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/default_double_padding"
+            android:layout_toLeftOf="@+id/report"
+            android:layout_toRightOf="@+id/name"
+            android:ellipsize="marquee"
+            android:maxWidth="60dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_24"
+            intro:customFont="boton.ttf"/>
+
+        <ImageView
+            android:id="@+id/report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/default_triple_padding"
+            android:layout_marginRight="@dimen/default_triple_padding"
+            android:background="@drawable/report"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/see_previous_visitors"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_50"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/see_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toLeftOf="@+id/see_text"
+            android:src="@drawable/location"/>
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/see_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/default_padding"
+            android:text="SEE PREVIOUS VISITORS"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_20"
+            intro:customFont="boton.ttf"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/breadcrumb_like_rel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:layout_below="@id/header"
+        android:background="@color/breadcrumb_like_color"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/breadcrumb_like_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/breadcrumb_like_image"
+            android:layout_centerHorizontal="true"
+            android:text="That's it for now."
+            android:textColor="@color/white"
+            android:textSize="@dimen/queueheadertextsize"
+            intro:customFont="filosofia-italic.ttf"/>
+
+        <ImageView
+            android:id="@+id/breadcrumb_like_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/breadcrumb_like_text2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/default_double_padding"
+            android:src="@drawable/icon"/>
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/breadcrumb_like_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/breadcrumb_like_text"
+            android:textColor="@color/black"
+            android:textSize="@dimen/queuetextsize"
+            intro:customFont="filosofia-italic.ttf"/>
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/breadcrumb_like_intro_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/breadcrumb_like_text2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/padding_30"
+            android:text="INTRO UPDATE:"
+            android:textColor="@color/pink_btn"
+            android:textSize="@dimen/queuetextsize"
+            intro:customFont="filosofia-italic.ttf"/>
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/breadcrumb_like_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/breadcrumb_like_intro_update"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/default_padding"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="@dimen/default_padding"
+            android:text="@string/whenever"
+            android:textColor="@color/white"
+            android:textSize="@dimen/queueothertextsize"
+            intro:customFont="boton.ttf"/>
+
+    </RelativeLayout>
+</RelativeLayout>

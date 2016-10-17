@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appsee"
+    android:versionCode="2300"
+    android:versionName="2.3" >
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="24" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application>
+        <service android:name="com.appsee.AppseeBackgroundUploader" />
+    </application>
+</manifest>

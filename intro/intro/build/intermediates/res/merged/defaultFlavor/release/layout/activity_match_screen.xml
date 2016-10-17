@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:intro="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/matchLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunday_night_bg" >
+
+    <com.intro.customviews.CustomTextView
+        android:id="@+id/match_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="!ntro"
+        android:gravity="center"
+        android:textColor="@color/breadcrumb_like_color"
+        android:textSize="@dimen/textsize_50"
+        intro:customFont="filosofia-italic.ttf"
+        android:background="@color/breadcrumb_like_header_color"
+        android:visibility="gone"/>
+
+    <com.intro.customviews.CustomTextView
+        android:id="@+id/makeyourmove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/match_header"
+        android:layout_marginLeft="@dimen/default_double_padding"
+        android:text="Make\n\nYour\n\nMove"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/pink_text"
+        android:textSize="@dimen/textsize_50"
+        intro:customFont="boton.ttf" />
+
+    <com.intro.customviews.CustomTextView
+        android:id="@+id/hurry_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/makeyourmove"
+        android:layout_marginLeft="@dimen/default_double_padding"
+        android:layout_marginTop="@dimen/default_padding"
+        android:text="@string/hurry"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_18"
+        intro:customFont="boton-italic.ttf" />
+
+    <com.intro.customviews.CustomTextView
+        android:id="@+id/whowanttomeet_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rounded_img_layout"
+        android:layout_marginTop="@dimen/default_triple_padding"
+        android:background="@color/black_translucent"
+        android:gravity="center_vertical"
+        android:padding="@dimen/default_padding"
+        android:singleLine="true"
+        android:text="Robert Thomas wants to meet"
+        android:textColor="@color/gray_text"
+        android:textSize="@dimen/textsize_20"
+        intro:customFont="boton.ttf" />
+
+    <LinearLayout
+        android:id="@+id/rounded_img_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/send_btn"
+        android:orientation="horizontal"
+        android:padding="@dimen/default_padding" >
+
+        <com.intro.customviews.ImageViewRounded
+            android:id="@+id/rounded_img_1"
+            android:layout_width="@dimen/circular_image_60"
+            android:layout_height="@dimen/circular_image_60"
+            android:background="@drawable/cameraplus"
+            android:layout_margin="@dimen/default_padding"/>
+
+        <com.intro.customviews.ImageViewRounded
+            android:id="@+id/rounded_img_2"
+            android:layout_width="@dimen/circular_image_60"
+            android:layout_height="@dimen/circular_image_60"
+            android:background="@drawable/cameraplus"
+            android:layout_margin="@dimen/default_padding"/>
+
+        <com.intro.customviews.ImageViewRounded
+            android:id="@+id/rounded_img_3"
+            android:layout_width="@dimen/circular_image_60"
+            android:layout_height="@dimen/circular_image_60"
+            android:background="@drawable/cameraplus"
+            android:layout_margin="@dimen/default_padding"/>
+    </LinearLayout>
+
+    <com.intro.customviews.CustomButton
+        android:id="@+id/send_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/continue_btn"
+        android:layout_marginBottom="@dimen/padding_1"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/navigate"
+        android:drawablePadding="@dimen/default_padding"
+        android:gravity="center_vertical"
+        android:padding="@dimen/default_padding"
+        android:text="@string/send_message"
+        intro:customFont="boton.ttf" />
+
+    <com.intro.customviews.CustomButton
+        android:id="@+id/continue_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/play"
+        android:drawablePadding="@dimen/default_padding"
+        android:gravity="center_vertical"
+        android:padding="@dimen/default_padding"
+        android:text="@string/continue_match"
+        intro:customFont="boton.ttf" />
+
+</RelativeLayout><!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/layout/activity_match_screen.xml -->

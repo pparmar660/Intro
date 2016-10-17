@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/custom_alart_dialog"
+    android:layout_gravity="center|center_vertical">
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="!ntro"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/default_triple_padding"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/message_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_tv"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_margin="@dimen/default_padding"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingRight="@dimen/default_padding"
+        android:text="You must enter all fields" />
+    
+    <LinearLayout 
+        android:id="@+id/linearLine"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/message_tv"
+        android:background="@color/gray_text"
+        android:layout_marginTop="@dimen/default_padding"
+        android:orientation="vertical"/>
+
+    <TextView
+        android:id="@+id/ok_btn_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLine"
+        android:textColor="@color/blue_text"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="@dimen/default_padding"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textStyle="bold"
+        android:text="Ok" />
+
+</RelativeLayout>

@@ -1,0 +1,218 @@
+-injars 'D:\GIT\intro19_09_16\intro\intro\build\intermediates\multi-dex\defaultFlavor\release\allclasses.jar'
+-outjars 'D:\GIT\intro19_09_16\intro\intro\build\intermediates\multi-dex\defaultFlavor\release\componentClasses.jar'
+
+-libraryjars 'D:\Studio_AWS\build-tools\23.0.1\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontwarn
+-printconfiguration 'D:\GIT\intro19_09_16\intro\intro\build\intermediates\multi-dex\defaultFlavor\release\components.flags'
+
+
+-keep class com.intro.android.IntroApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.intro.android.NotificationService {
+    <init>();
+}
+
+-keep class com.microsoft.windowsazure.notifications.NotificationsBroadcastReceiver {
+    <init>();
+}
+
+-keep class com.intro.android.TimerService {
+    <init>();
+}
+
+-keep class com.appsee.AppseeBackgroundUploader {
+    <init>();
+}
+
+-keep class com.intro.android.SplashActivity {
+    <init>();
+}
+
+-keep class com.intro.android.NotificationPublisher {
+    <init>();
+}
+
+-keep class com.intro.android.LoginActivity {
+    <init>();
+}
+
+-keep class com.intro.android.AddPhotosActivity {
+    <init>();
+}
+
+-keep class com.intro.android.CropperActivity {
+    <init>();
+}
+
+-keep class com.intro.android.SignUpActivity {
+    <init>();
+}
+
+-keep class com.intro.android.SetProfileActivity {
+    <init>();
+}
+
+-keep class com.intro.android.SettingsActivity {
+    <init>();
+}
+
+-keep class com.intro.android.ProfileActivity {
+    <init>();
+}
+
+-keep class com.intro.android.GetReadyActivity {
+    <init>();
+}
+
+-keep class com.intro.android.QueueUserActivity {
+    <init>();
+}
+
+-keep class com.intro.android.MatchActivity {
+    <init>();
+}
+
+-keep class com.intro.android.ChatActivity {
+    <init>();
+}
+
+-keep class com.intro.android.MatchedUserProfileActivity {
+    <init>();
+}
+
+-keep class com.intro.android.ShowAlbumFacebook {
+    <init>();
+}
+
+-keep class com.intro.android.ShowPhotosFacebook {
+    <init>();
+}
+
+-keep class com.intro.android.PreviewActivity {
+    <init>();
+}
+
+-keep class com.intro.android.NearByBreadcrumbActivity {
+    <init>();
+}
+
+-keep class com.intro.android.NewMatchesActivity {
+    <init>();
+}
+
+-keep class com.facebook.LoginActivity {
+    <init>();
+}
+
+-keep class com.twitter.sdk.android.tweetcomposer.ComposerActivity {
+    <init>();
+}
+
+-keep class com.twitter.sdk.android.tweetcomposer.TweetUploadService {
+    <init>();
+}
+
+-keep class com.twitter.sdk.android.core.identity.OAuthActivity {
+    <init>();
+}
+
+-keep class com.twitter.sdk.android.core.identity.ShareEmailActivity {
+    <init>();
+}
+
+-keep class com.twitter.sdk.android.tweetui.PlayerActivity {
+    <init>();
+}
+
+-keep class com.twitter.sdk.android.tweetui.GalleryActivity {
+    <init>();
+}
+
+-keep class com.digits.sdk.android.PhoneNumberActivity {
+    <init>();
+}
+
+-keep class com.digits.sdk.android.ConfirmationCodeActivity {
+    <init>();
+}
+
+-keep class com.digits.sdk.android.LoginCodeActivity {
+    <init>();
+}
+
+-keep class com.digits.sdk.android.PinCodeActivity {
+    <init>();
+}
+
+-keep class com.digits.sdk.android.FailureActivity {
+    <init>();
+}
+
+-keep class com.digits.sdk.android.ContactsActivity {
+    <init>();
+}
+
+-keep class com.digits.sdk.android.EmailRequestActivity {
+    <init>();
+}
+
+-keep class com.digits.sdk.android.PhoneNumberActionBarActivity {
+    <init>();
+}
+
+-keep class com.digits.sdk.android.ConfirmationCodeActionBarActivity {
+    <init>();
+}
+
+-keep class com.digits.sdk.android.LoginCodeActionBarActivity {
+    <init>();
+}
+
+-keep class com.digits.sdk.android.FailureActionBarActivity {
+    <init>();
+}
+
+-keep class com.digits.sdk.android.ContactsActionBarActivity {
+    <init>();
+}
+
+-keep class com.digits.sdk.android.PinCodeActionBarActivity {
+    <init>();
+}
+
+-keep class com.digits.sdk.android.EmailRequestActionBarActivity {
+    <init>();
+}
+
+-keep class com.digits.sdk.android.ContactsUploadService {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

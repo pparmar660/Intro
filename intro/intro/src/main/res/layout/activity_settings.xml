@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rsb="http://schemas.android.com/apk/res/com.intro.android"
+    xmlns:intro="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sunday_night_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="horizontal" 
+        android:paddingBottom="@dimen/default_padding_half"
+        android:paddingTop="@dimen/default_padding_half">
+
+        <ImageButton
+            android:id="@+id/back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:layout_marginLeft="@dimen/default_triple_padding"
+            android:src="@drawable/arrow" />
+
+        <com.intro.customviews.CustomTextView
+            android:id="@+id/header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:inputType="textCapWords"
+            android:text="@string/settings"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_35"
+            intro:customFont="filosofia-italic.ttf" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:layout_above="@+id/versionNo"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_triple_padding"
+            android:layout_marginRight="@dimen/default_triple_padding"
+            android:layout_marginTop="@dimen/default_double_padding"
+            android:orientation="vertical" >
+
+            <com.intro.customviews.CustomTextView
+                android:id="@+id/looking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Looking to meet..."
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_30"
+                intro:customFont="filosofia-italic.ttf" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_12"
+                android:layout_marginTop="@dimen/padding_12"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/lay_guys"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/size_et"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/chk_guys"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:clickable="false"
+                        android:button="@drawable/custome_check_box_blue"
+                        android:paddingLeft="@dimen/default_padding" />
+
+                    <com.intro.customviews.CustomTextView
+                        android:id="@+id/guys"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="GUYS"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize_24"
+                        intro:customFont="boton.ttf" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lay_girls"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/chk_girls"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:button="@drawable/custome_check_box"
+                        android:clickable="false"
+                        android:paddingLeft="@dimen/default_padding" />
+
+                    <com.intro.customviews.CustomTextView
+                        android:id="@+id/girls"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="GIRLS"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize_24"
+                        intro:customFont="boton.ttf" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/hori_line" />
+
+            <com.intro.customviews.CustomTextView
+                android:id="@+id/betweenAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_double_padding"
+                android:text="Between the ages of..."
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_30"
+                intro:customFont="filosofia-italic.ttf" />
+
+            <LinearLayout
+                android:id="@+id/rangebar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.intro.customviews.RangeSeekBar
+                    android:id="@+id/rangeSeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_12"
+                    android:gravity="center_vertical"
+                    rsb:absoluteMaxValue="55"
+                    rsb:absoluteMinValue="18" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/default_padding"
+                android:background="@color/hori_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/edit_lay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="@dimen/default_double_padding"
+                        android:background="@drawable/button_selector">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/default_padding"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:id="@+id/edit_img"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:contentDescription="@string/app_name"
+                                android:src="@drawable/new_profile" />
+
+                            <com.intro.customviews.CustomTextView
+                                android:id="@+id/edit_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="@dimen/default_double_padding"
+                                android:paddingRight="@dimen/default_padding"
+                                android:singleLine="true"
+                                android:text="Edit Profile"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/textsize_24"
+                                intro:customFont="boton.ttf" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="@dimen/default_padding"
+                            android:background="@color/hori_line" />
+                    </LinearLayout>
+                    
+                    
+                    <LinearLayout
+                        android:id="@+id/rate_lay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/default_padding"
+                        android:orientation="vertical"
+                        android:background="@drawable/button_selector">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/default_padding"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:id="@+id/rate_img"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:background="@android:color/transparent"
+                                android:contentDescription="@string/app_name"
+                                android:src="@drawable/new_rate" />
+
+                            <com.intro.customviews.CustomTextView
+                                android:id="@+id/rate_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="17dp"
+                                android:paddingRight="@dimen/default_padding"
+                                android:singleLine="true"
+                                android:text="Rate"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/textsize_24"
+                                intro:customFont="boton.ttf" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="@dimen/default_padding"
+                            android:background="@color/hori_line" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/contact_lay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/default_padding"
+                        android:orientation="vertical"
+                        android:background="@drawable/button_selector">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/default_padding"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:id="@+id/contact_img"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:contentDescription="@string/app_name"
+                                android:src="@drawable/new_contact" />
+
+                            <com.intro.customviews.CustomTextView
+                                android:id="@+id/contact_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="@dimen/default_double_padding"
+                                android:paddingRight="@dimen/default_padding"
+                                android:singleLine="true"
+                                android:text="Contact"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/textsize_24"
+                                intro:customFont="boton.ttf" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="@dimen/default_padding"
+                            android:background="@color/hori_line" />
+                    </LinearLayout> 
+
+                    <LinearLayout
+                        android:id="@+id/signout_lay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/default_padding"
+                        android:orientation="vertical"
+                        android:background="@drawable/button_selector" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/default_padding"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal" >
+
+                            <ImageView
+                                android:id="@+id/signout_img"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:contentDescription="@string/app_name"
+                                android:src="@drawable/new_signout" />
+
+                            <com.intro.customviews.CustomTextView
+                                android:id="@+id/signout_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="@dimen/default_double_padding"
+                                android:paddingRight="@dimen/default_padding"
+                                android:singleLine="true"
+                                android:text="Sign Out"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/textsize_24"
+                                intro:customFont="boton.ttf" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="@dimen/default_padding"
+                            android:background="@color/hori_line" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/delete_lay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/default_double_padding"
+                        android:orientation="horizontal"
+                        android:background="@drawable/button_selector" >
+
+                        
+                            <ImageView
+                                android:id="@+id/delete_img"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:contentDescription="@string/app_name"
+                                android:src="@drawable/new_delete" />
+
+                            <com.intro.customviews.CustomTextView
+                                android:id="@+id/delete_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="9dp"
+                                android:paddingRight="@dimen/default_padding"
+                                android:singleLine="true"
+                                android:text="Delete"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/textsize_24"
+                                intro:customFont="boton.ttf" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.intro.customviews.CustomTextView
+        android:id="@+id/versionNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_20"
+        intro:customFont="boton.ttf"/>
+
+</RelativeLayout>

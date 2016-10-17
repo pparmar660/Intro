@@ -1,0 +1,81 @@
+<resources>
+
+    <string name="app_name">!ntro</string>
+    <string name="version">1.1.0</string>
+
+    <!-- Twitter Configurations -->
+    <string name="twitter_consumer_key">vM5RNi5CCodJnL7e5BOA</string>
+    <string name="twitter_consumer_secret">FQNS0eBbM8J5DDjDglLCwOvAUUesYhN5uFxdxjKLgk</string>
+    <string name="twitter_oauth_verifier">oauth_verifier</string>
+    <!-- End Configurations -->
+
+    <string name="facebook_app_id">1450852748469360</string>   <!--850526261708217-->
+
+    <string name="appsee_apikey">203fc7b5bd7f4bbfb7bc2d6074a665ad</string>
+    <!--ead821500cb44a17b82702085e863a2b-->
+
+    <string name="action_settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="create_acc">create account</string>
+    <string name="savepro">save profile</string>
+    <string name="settings">Settings</string>
+    <string name="Create_Acc">Create Account</string>
+    <string name="get_ready">Get Ready</string>
+    <string name="set_profile">Set Profile</string>
+    <string name="email_add">Email Address</string>
+    <string name="password">password</string>
+    <string name="con_password">confirm password</string>
+    <string name="for_passwordd"><u>Forgot Password?</u></string>
+    <string name="for_password">Forgot Password</string>
+    <string name="login">log in</string>
+    <string name="register">sign up</string>
+    <string name="menu">Menu</string>
+    <string name="personDescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry/s standard dummy text ever since the 1500s</string>
+    <string name="select_search_radius">Select a search radius</string>   
+    <string name="in_miles">(In Miles)</string>
+    <string name="select_time">How long will you be here?</string>
+    <string name="hours">(Hrs)</string>
+    <string name="three_words_intro">Your 3-word !ntro...</string>
+    <string name="optional">(Optional)</string>
+    <string name="let_meet_up">Let\'s Meet Up!</string>
+    <string name="go_intro">go !ntro</string>
+    <string name="introUpdate">!NTRO UPDATE:</string>
+    <string name="nofb_images">No Images to show</string>
+    <string name="hurry">Hurry and connect before time runs\nout!</string>
+    <string name="refresh_text">Other !ntro users may have\n visited this area before.\n Check out all the previous visitors\n by clicking below!</string>
+    <string name="breadcrumb_like_text">"Just remember, there&apos;s always\n new people showing up,\n and ton of new places to go.\n So, next time you start\n an event there&apos;s sure to be a lot\n more !ntro action."</string>
+    <string name="whenever">"Whenever one of your\n "breadcrumb" matches is near\n you, we&apos;ll let you know!"</string>
+    <string name="queue_null_text1">More people are always\n showing up so keep checking back...</string>
+    <string name="queue_null_text2">"Looks like you&apos;re the first one here...\n Keep checking back\n to see who else shows up!"</string>
+    <string name="less_then_25_miles"> &lt; .25 miles</string>
+    <string name="miles_away"> miles away</string>
+    <string name="like_you">likes you!</string>
+    <string name="want_meet">wants to meet</string>
+    <string name="breadcrumb_top_msg">BREADCRUMB\n\nMATCH!</string>
+    <string name="breadcrumb_middle_msg">"Next time you both start a Go Intro event near each other, we&apos;ll let you know!"</string>
+    <string name="make_your_move">Make\n\nYour\n\nMove</string>
+    <string name="send_message">SEND MESSAGE</string>
+    <string name="continue_match">CONTINUE</string>
+    <string name="view_profile">VIEW PROFILE</string>
+    <string name="go_chat">GO TO CHAT</string>
+    <string name="view_live_profile">VIEW LIVE PROFILES</string>
+    <string name="preview">Preview</string>
+    <string name="new_version_msg">There is a new version available. Please download</string>
+    <string name="image_warning">Make sure to upload your pics so you can get matched!</string>
+    <string name="later">Later</string>
+    <string name="upload">Upload</string>
+    <string name="permision_warning">TO load this page provide permissions for Storage and Location.</string>
+    <string name="provide">Provide</string>
+    <string name="matches_fav_txt">FAVS (0)</string>
+    <string name="matches_live_txt">LIVE (0)</string>
+    <string name="matches_breadcrumb_txt">BREADCRUMBS (0)</string>
+    <string name="match_add_time">ADD TIME</string>
+    <string name="okay">Okay</string>
+    <string name="description_active_profile">Hit ‘Breadcrumb’ to tag your profile to your current location. This will make your profile visible to other Tooplers in this area. *Don’t worry, we never reveal your actual location.</string>
+    <string name="you_have_new_breadcrumb_likes_click_this_button_to_see_who_liked_your_profile_at_a_location_you_visited">You have new Breadcrumb likes! Click this button to see who liked your profile at a location you visited.</string>
+    <string name="you_have_7_days_to_chat_with_breadcrumb_matches_before_they_go_dormant_once_they_are_dormant_we_will_auto_match_you_in_a_go_live_event_if_they_are_near">You have 7 days to chat with breadcrumb matches before they go dormant. Once they are dormant, we will auto-match you in a ‘Go Live’ event if they are near!</string>
+    <string name="also_if_yo">Live matches expire when your ‘Go Live’ event ends, so hurry and chat them up! Also, if you both you and your match ‘favorite’ each other in the chat screen, you will be able to chat them anytime.</string>
+    <string name="if_you_favorite_your_match_and_they_favorite_you_back_you_can_chat_with_them_even_after_your_go_live_event_expires_but_remember_the_whole_point_is_to_meet_your_match_now_so_go_meet_up">If you favorite your match and they favorite you back, you can chat with them even after your ‘Go Live’ event expires! But remember, the whole point is to meet your match now – so go meet up!</string>
+    <string name="profile_both_breadcrumb_tooltip_txt">You have new Breadcrumb likes! Click this button to see who like your profile at a location you visited.</string>
+    <string name="profile_des_toop_tip">Hit \'Go Live\' to activate your profile when you\'re out and ready to see who\'s around!</string>
+</resources>

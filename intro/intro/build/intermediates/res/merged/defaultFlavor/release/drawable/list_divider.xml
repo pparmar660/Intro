@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+       android:insetLeft="28dp">
+
+    <shape android:shape="rectangle" >
+        <solid android:color="@android:color/black" />
+    </shape>
+
+</inset>
+
+
+
+    <!--android:insetLeft="30dp"--><!-- From: file:/D:/GIT/intro19_09_16/intro/intro/src/main/res/drawable/list_divider.xml -->

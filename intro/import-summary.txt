@@ -1,0 +1,994 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From Cropper:
+* build.gradle
+* proguard-project.txt
+From FacebookSDK:
+* build.gradle
+* build.xml
+From com-digits-sdk-android_digits:
+* R.txt
+* aapt\
+* aapt\AndroidManifest.xml
+* annotations.zip
+* build.xml
+* kit-version.properties
+* proguard.txt
+From com-twitter-sdk-android_tweet-composer:
+* aapt\
+* aapt\AndroidManifest.xml
+* build.xml
+* kit-version.properties
+From com-twitter-sdk-android_tweet-ui:
+* R.txt
+* aapt\
+* aapt\AndroidManifest.xml
+* build.xml
+* kit-version.properties
+* proguard.txt
+From com-twitter-sdk-android_twitter:
+* R.txt
+* aapt\
+* aapt\AndroidManifest.xml
+* build.xml
+* kit-version.properties
+From com-twitter-sdk-android_twitter-core:
+* R.txt
+* aapt\
+* aapt\AndroidManifest.xml
+* build.xml
+* kit-version.properties
+* proguard.txt
+From intro:
+* fabric.properties
+* ic_launcher-web.png
+* kit-libs\
+* kit-libs\com-digits-sdk-android_digits\
+* kit-libs\com-digits-sdk-android_digits\.classpath
+* kit-libs\com-digits-sdk-android_digits\.project
+* kit-libs\com-digits-sdk-android_digits\.settings\
+* kit-libs\com-digits-sdk-android_digits\.settings\org.eclipse.jdt.core.prefs
+* kit-libs\com-digits-sdk-android_digits\AndroidManifest.xml
+* kit-libs\com-digits-sdk-android_digits\R.txt
+* kit-libs\com-digits-sdk-android_digits\aapt\
+* kit-libs\com-digits-sdk-android_digits\aapt\AndroidManifest.xml
+* kit-libs\com-digits-sdk-android_digits\annotations.zip
+* kit-libs\com-digits-sdk-android_digits\bin\
+* kit-libs\com-digits-sdk-android_digits\bin\AndroidManifest.xml
+* kit-libs\com-digits-sdk-android_digits\bin\R.txt
+* kit-libs\com-digits-sdk-android_digits\bin\classes\
+* kit-libs\com-digits-sdk-android_digits\bin\classes\com\
+* kit-libs\com-digits-sdk-android_digits\bin\classes\com\digits\
+* kit-libs\com-digits-sdk-android_digits\bin\classes\com\digits\sdk\
+* kit-libs\com-digits-sdk-android_digits\bin\classes\com\digits\sdk\android\
+* kit-libs\com-digits-sdk-android_digits\bin\classes\com\digits\sdk\android\BuildConfig.class
+* kit-libs\com-digits-sdk-android_digits\bin\classes\com\digits\sdk\android\R$attr.class
+* kit-libs\com-digits-sdk-android_digits\bin\classes\com\digits\sdk\android\R$color.class
+* kit-libs\com-digits-sdk-android_digits\bin\classes\com\digits\sdk\android\R$dimen.class
+* kit-libs\com-digits-sdk-android_digits\bin\classes\com\digits\sdk\android\R$drawable.class
+* kit-libs\com-digits-sdk-android_digits\bin\classes\com\digits\sdk\android\R$id.class
+* kit-libs\com-digits-sdk-android_digits\bin\classes\com\digits\sdk\android\R$layout.class
+* kit-libs\com-digits-sdk-android_digits\bin\classes\com\digits\sdk\android\R$raw.class
+* kit-libs\com-digits-sdk-android_digits\bin\classes\com\digits\sdk\android\R$string.class
+* kit-libs\com-digits-sdk-android_digits\bin\classes\com\digits\sdk\android\R$style.class
+* kit-libs\com-digits-sdk-android_digits\bin\classes\com\digits\sdk\android\R$styleable.class
+* kit-libs\com-digits-sdk-android_digits\bin\classes\com\digits\sdk\android\R.class
+* kit-libs\com-digits-sdk-android_digits\bin\com-digits-sdk-android_digits.jar
+* kit-libs\com-digits-sdk-android_digits\bin\jarlist.cache
+* kit-libs\com-digits-sdk-android_digits\bin\res\
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-hdpi\
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-hdpi\dgts__addressbook_header.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-hdpi\dgts__ic_success.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-hdpi\dgts__login_header.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-hdpi\dgts__logo.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-hdpi\dgts__logo_name.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-hdpi\dgts__spinner_dark.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-hdpi\dgts__spinner_light.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-mdpi\
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-mdpi\dgts__addressbook_header.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-mdpi\dgts__ic_success.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-mdpi\dgts__login_header.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-mdpi\dgts__logo.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-mdpi\dgts__logo_name.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-mdpi\dgts__spinner_dark.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-mdpi\dgts__spinner_light.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xhdpi\
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xhdpi\dgts__addressbook_header.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xhdpi\dgts__ic_success.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xhdpi\dgts__login_header.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xhdpi\dgts__logo.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xhdpi\dgts__logo_name.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xhdpi\dgts__spinner_dark.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xhdpi\dgts__spinner_light.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xxhdpi\
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xxhdpi\dgts__addressbook_header.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xxhdpi\dgts__ic_success.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xxhdpi\dgts__login_header.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xxhdpi\dgts__logo.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xxhdpi\dgts__logo_name.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xxhdpi\dgts__spinner_dark.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xxhdpi\dgts__spinner_light.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xxxhdpi\
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xxxhdpi\dgts__addressbook_header.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xxxhdpi\dgts__ic_success.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xxxhdpi\dgts__login_header.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xxxhdpi\dgts__logo.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xxxhdpi\dgts__logo_name.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xxxhdpi\dgts__spinner_dark.png
+* kit-libs\com-digits-sdk-android_digits\bin\res\crunch\drawable-xxxhdpi\dgts__spinner_light.png
+* kit-libs\com-digits-sdk-android_digits\build.xml
+* kit-libs\com-digits-sdk-android_digits\gen\
+* kit-libs\com-digits-sdk-android_digits\gen\com\
+* kit-libs\com-digits-sdk-android_digits\gen\com\digits\
+* kit-libs\com-digits-sdk-android_digits\gen\com\digits\sdk\
+* kit-libs\com-digits-sdk-android_digits\gen\com\digits\sdk\android\
+* kit-libs\com-digits-sdk-android_digits\gen\com\digits\sdk\android\BuildConfig.java
+* kit-libs\com-digits-sdk-android_digits\gen\com\digits\sdk\android\R.java
+* kit-libs\com-digits-sdk-android_digits\kit-version.properties
+* kit-libs\com-digits-sdk-android_digits\libs\
+* kit-libs\com-digits-sdk-android_digits\libs\com-digits-sdk-android_digits-classes.jar
+* kit-libs\com-digits-sdk-android_digits\proguard.txt
+* kit-libs\com-digits-sdk-android_digits\project.properties
+* kit-libs\com-digits-sdk-android_digits\res\
+* kit-libs\com-digits-sdk-android_digits\res\drawable-hdpi\
+* kit-libs\com-digits-sdk-android_digits\res\drawable-hdpi\dgts__addressbook_header.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-hdpi\dgts__ic_success.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-hdpi\dgts__login_header.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-hdpi\dgts__logo.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-hdpi\dgts__logo_name.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-hdpi\dgts__spinner_dark.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-hdpi\dgts__spinner_light.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-mdpi\
+* kit-libs\com-digits-sdk-android_digits\res\drawable-mdpi\dgts__addressbook_header.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-mdpi\dgts__ic_success.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-mdpi\dgts__login_header.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-mdpi\dgts__logo.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-mdpi\dgts__logo_name.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-mdpi\dgts__spinner_dark.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-mdpi\dgts__spinner_light.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xhdpi\
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xhdpi\dgts__addressbook_header.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xhdpi\dgts__ic_success.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xhdpi\dgts__login_header.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xhdpi\dgts__logo.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xhdpi\dgts__logo_name.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xhdpi\dgts__spinner_dark.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xhdpi\dgts__spinner_light.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xxhdpi\
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xxhdpi\dgts__addressbook_header.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xxhdpi\dgts__ic_success.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xxhdpi\dgts__login_header.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xxhdpi\dgts__logo.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xxhdpi\dgts__logo_name.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xxhdpi\dgts__spinner_dark.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xxhdpi\dgts__spinner_light.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xxxhdpi\
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xxxhdpi\dgts__addressbook_header.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xxxhdpi\dgts__ic_success.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xxxhdpi\dgts__login_header.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xxxhdpi\dgts__logo.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xxxhdpi\dgts__logo_name.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xxxhdpi\dgts__spinner_dark.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable-xxxhdpi\dgts__spinner_light.png
+* kit-libs\com-digits-sdk-android_digits\res\drawable\
+* kit-libs\com-digits-sdk-android_digits\res\drawable\dgts__digits_btn.xml
+* kit-libs\com-digits-sdk-android_digits\res\drawable\dgts__digits_btn_default.xml
+* kit-libs\com-digits-sdk-android_digits\res\drawable\dgts__digits_btn_pressed.xml
+* kit-libs\com-digits-sdk-android_digits\res\drawable\progress_dark.xml
+* kit-libs\com-digits-sdk-android_digits\res\drawable\progress_light.xml
+* kit-libs\com-digits-sdk-android_digits\res\layout\
+* kit-libs\com-digits-sdk-android_digits\res\layout\dgts__activity_confirmation.xml
+* kit-libs\com-digits-sdk-android_digits\res\layout\dgts__activity_contacts.xml
+* kit-libs\com-digits-sdk-android_digits\res\layout\dgts__activity_failure.xml
+* kit-libs\com-digits-sdk-android_digits\res\layout\dgts__activity_phone_number.xml
+* kit-libs\com-digits-sdk-android_digits\res\layout\dgts__activity_pin_code.xml
+* kit-libs\com-digits-sdk-android_digits\res\layout\dgts__country_row.xml
+* kit-libs\com-digits-sdk-android_digits\res\layout\dgts__state_button.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-ar\
+* kit-libs\com-digits-sdk-android_digits\res\values-ar\values-ar.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-bn\
+* kit-libs\com-digits-sdk-android_digits\res\values-bn\values-bn.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-cs\
+* kit-libs\com-digits-sdk-android_digits\res\values-cs\values-cs.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-da\
+* kit-libs\com-digits-sdk-android_digits\res\values-da\values-da.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-de\
+* kit-libs\com-digits-sdk-android_digits\res\values-de\values-de.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-en-rGB\
+* kit-libs\com-digits-sdk-android_digits\res\values-en-rGB\values-en-rGB.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-en-rSS\
+* kit-libs\com-digits-sdk-android_digits\res\values-en-rSS\values-en-rSS.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-en-rXX\
+* kit-libs\com-digits-sdk-android_digits\res\values-en-rXX\values-en-rXX.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-es\
+* kit-libs\com-digits-sdk-android_digits\res\values-es\values-es.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-fa\
+* kit-libs\com-digits-sdk-android_digits\res\values-fa\values-fa.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-fi\
+* kit-libs\com-digits-sdk-android_digits\res\values-fi\values-fi.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-fr\
+* kit-libs\com-digits-sdk-android_digits\res\values-fr\values-fr.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-hi\
+* kit-libs\com-digits-sdk-android_digits\res\values-hi\values-hi.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-hu\
+* kit-libs\com-digits-sdk-android_digits\res\values-hu\values-hu.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-in\
+* kit-libs\com-digits-sdk-android_digits\res\values-in\values-in.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-it\
+* kit-libs\com-digits-sdk-android_digits\res\values-it\values-it.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-iw\
+* kit-libs\com-digits-sdk-android_digits\res\values-iw\values-iw.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-ja\
+* kit-libs\com-digits-sdk-android_digits\res\values-ja\values-ja.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-ko\
+* kit-libs\com-digits-sdk-android_digits\res\values-ko\values-ko.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-ms\
+* kit-libs\com-digits-sdk-android_digits\res\values-ms\values-ms.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-nb\
+* kit-libs\com-digits-sdk-android_digits\res\values-nb\values-nb.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-nl\
+* kit-libs\com-digits-sdk-android_digits\res\values-nl\values-nl.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-pl\
+* kit-libs\com-digits-sdk-android_digits\res\values-pl\values-pl.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-pt\
+* kit-libs\com-digits-sdk-android_digits\res\values-pt\values-pt.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-ro\
+* kit-libs\com-digits-sdk-android_digits\res\values-ro\values-ro.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-ru\
+* kit-libs\com-digits-sdk-android_digits\res\values-ru\values-ru.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-sv\
+* kit-libs\com-digits-sdk-android_digits\res\values-sv\values-sv.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-th\
+* kit-libs\com-digits-sdk-android_digits\res\values-th\values-th.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-tl\
+* kit-libs\com-digits-sdk-android_digits\res\values-tl\values-tl.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-tr\
+* kit-libs\com-digits-sdk-android_digits\res\values-tr\values-tr.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-uk\
+* kit-libs\com-digits-sdk-android_digits\res\values-uk\values-uk.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-ur\
+* kit-libs\com-digits-sdk-android_digits\res\values-ur\values-ur.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-v11\
+* kit-libs\com-digits-sdk-android_digits\res\values-v11\values-v11.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-v21\
+* kit-libs\com-digits-sdk-android_digits\res\values-v21\values-v21.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-vi\
+* kit-libs\com-digits-sdk-android_digits\res\values-vi\values-vi.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-zh-rCN\
+* kit-libs\com-digits-sdk-android_digits\res\values-zh-rCN\values-zh-rCN.xml
+* kit-libs\com-digits-sdk-android_digits\res\values-zh-rTW\
+* kit-libs\com-digits-sdk-android_digits\res\values-zh-rTW\values-zh-rTW.xml
+* kit-libs\com-digits-sdk-android_digits\res\values\
+* kit-libs\com-digits-sdk-android_digits\res\values\values.xml
+* kit-libs\com-twitter-sdk-android_tweet-composer\
+* kit-libs\com-twitter-sdk-android_tweet-composer\.classpath
+* kit-libs\com-twitter-sdk-android_tweet-composer\.project
+* kit-libs\com-twitter-sdk-android_tweet-composer\.settings\
+* kit-libs\com-twitter-sdk-android_tweet-composer\.settings\org.eclipse.jdt.core.prefs
+* kit-libs\com-twitter-sdk-android_tweet-composer\AndroidManifest.xml
+* kit-libs\com-twitter-sdk-android_tweet-composer\aapt\
+* kit-libs\com-twitter-sdk-android_tweet-composer\aapt\AndroidManifest.xml
+* kit-libs\com-twitter-sdk-android_tweet-composer\bin\
+* kit-libs\com-twitter-sdk-android_tweet-composer\bin\AndroidManifest.xml
+* kit-libs\com-twitter-sdk-android_tweet-composer\bin\classes\
+* kit-libs\com-twitter-sdk-android_tweet-composer\bin\classes\com\
+* kit-libs\com-twitter-sdk-android_tweet-composer\bin\classes\com\twitter\
+* kit-libs\com-twitter-sdk-android_tweet-composer\bin\classes\com\twitter\sdk\
+* kit-libs\com-twitter-sdk-android_tweet-composer\bin\classes\com\twitter\sdk\android\
+* kit-libs\com-twitter-sdk-android_tweet-composer\bin\classes\com\twitter\sdk\android\tweetcomposer\
+* kit-libs\com-twitter-sdk-android_tweet-composer\bin\classes\com\twitter\sdk\android\tweetcomposer\BuildConfig.class
+* kit-libs\com-twitter-sdk-android_tweet-composer\bin\com-twitter-sdk-android_tweet-composer.jar
+* kit-libs\com-twitter-sdk-android_tweet-composer\bin\jarlist.cache
+* kit-libs\com-twitter-sdk-android_tweet-composer\build.xml
+* kit-libs\com-twitter-sdk-android_tweet-composer\gen\
+* kit-libs\com-twitter-sdk-android_tweet-composer\gen\com\
+* kit-libs\com-twitter-sdk-android_tweet-composer\gen\com\twitter\
+* kit-libs\com-twitter-sdk-android_tweet-composer\gen\com\twitter\sdk\
+* kit-libs\com-twitter-sdk-android_tweet-composer\gen\com\twitter\sdk\android\
+* kit-libs\com-twitter-sdk-android_tweet-composer\gen\com\twitter\sdk\android\tweetcomposer\
+* kit-libs\com-twitter-sdk-android_tweet-composer\gen\com\twitter\sdk\android\tweetcomposer\BuildConfig.java
+* kit-libs\com-twitter-sdk-android_tweet-composer\kit-version.properties
+* kit-libs\com-twitter-sdk-android_tweet-composer\libs\
+* kit-libs\com-twitter-sdk-android_tweet-composer\libs\com-twitter-sdk-android_tweet-composer-classes.jar
+* kit-libs\com-twitter-sdk-android_tweet-composer\project.properties
+* kit-libs\com-twitter-sdk-android_tweet-ui\
+* kit-libs\com-twitter-sdk-android_tweet-ui\.classpath
+* kit-libs\com-twitter-sdk-android_tweet-ui\.project
+* kit-libs\com-twitter-sdk-android_tweet-ui\.settings\
+* kit-libs\com-twitter-sdk-android_tweet-ui\.settings\org.eclipse.jdt.core.prefs
+* kit-libs\com-twitter-sdk-android_tweet-ui\AndroidManifest.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\R.txt
+* kit-libs\com-twitter-sdk-android_tweet-ui\aapt\
+* kit-libs\com-twitter-sdk-android_tweet-ui\aapt\AndroidManifest.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\AndroidManifest.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\R.txt
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\sdk\
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\sdk\android\
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\sdk\android\tweetui\
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\sdk\android\tweetui\BuildConfig.class
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\sdk\android\tweetui\R$attr.class
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\sdk\android\tweetui\R$color.class
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\sdk\android\tweetui\R$dimen.class
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\sdk\android\tweetui\R$drawable.class
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\sdk\android\tweetui\R$id.class
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\sdk\android\tweetui\R$layout.class
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\sdk\android\tweetui\R$plurals.class
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\sdk\android\tweetui\R$raw.class
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\sdk\android\tweetui\R$string.class
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\sdk\android\tweetui\R$style.class
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\sdk\android\tweetui\R$styleable.class
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\classes\com\twitter\sdk\android\tweetui\R.class
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\com-twitter-sdk-android_tweet-ui.jar
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\jarlist.cache
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\ic_action_fave_off_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\ic_action_fave_off_disabled.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\ic_action_fave_off_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\ic_action_fave_off_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\ic_action_fave_on_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\ic_action_fave_on_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\ic_action_fave_on_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\ic_action_share_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\ic_action_share_disabled.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\ic_action_share_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\ic_action_share_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\tw__ic_logo_blue.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\tw__ic_logo_white.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\tw__ic_retweet_dark.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\tw__ic_retweet_light.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\tw__ic_tweet_photo_error_dark.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\tw__ic_tweet_photo_error_light.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-hdpi\tw__ic_tweet_verified.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\ic_action_fave_off_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\ic_action_fave_off_disabled.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\ic_action_fave_off_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\ic_action_fave_off_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\ic_action_fave_on_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\ic_action_fave_on_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\ic_action_fave_on_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\ic_action_share_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\ic_action_share_disabled.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\ic_action_share_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\ic_action_share_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\tw__ic_logo_blue.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\tw__ic_logo_white.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\tw__ic_retweet_dark.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\tw__ic_retweet_light.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\tw__ic_tweet_photo_error_dark.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\tw__ic_tweet_photo_error_light.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-mdpi\tw__ic_tweet_verified.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\ic_action_fave_off_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\ic_action_fave_off_disabled.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\ic_action_fave_off_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\ic_action_fave_off_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\ic_action_fave_on_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\ic_action_fave_on_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\ic_action_fave_on_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\ic_action_share_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\ic_action_share_disabled.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\ic_action_share_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\ic_action_share_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\tw__ic_logo_blue.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\tw__ic_logo_white.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\tw__ic_retweet_dark.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\tw__ic_retweet_light.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\tw__ic_tweet_photo_error_dark.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\tw__ic_tweet_photo_error_light.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xhdpi\tw__ic_tweet_verified.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\ic_action_fave_off_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\ic_action_fave_off_disabled.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\ic_action_fave_off_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\ic_action_fave_off_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\ic_action_fave_on_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\ic_action_fave_on_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\ic_action_fave_on_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\ic_action_share_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\ic_action_share_disabled.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\ic_action_share_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\ic_action_share_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\tw__ic_logo_blue.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\tw__ic_logo_white.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\tw__ic_retweet_dark.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\tw__ic_retweet_light.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\tw__ic_tweet_photo_error_dark.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\tw__ic_tweet_photo_error_light.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\bin\res\crunch\drawable-xxhdpi\tw__ic_tweet_verified.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\build.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\gen\
+* kit-libs\com-twitter-sdk-android_tweet-ui\gen\com\
+* kit-libs\com-twitter-sdk-android_tweet-ui\gen\com\twitter\
+* kit-libs\com-twitter-sdk-android_tweet-ui\gen\com\twitter\sdk\
+* kit-libs\com-twitter-sdk-android_tweet-ui\gen\com\twitter\sdk\android\
+* kit-libs\com-twitter-sdk-android_tweet-ui\gen\com\twitter\sdk\android\tweetui\
+* kit-libs\com-twitter-sdk-android_tweet-ui\gen\com\twitter\sdk\android\tweetui\BuildConfig.java
+* kit-libs\com-twitter-sdk-android_tweet-ui\gen\com\twitter\sdk\android\tweetui\R.java
+* kit-libs\com-twitter-sdk-android_tweet-ui\kit-version.properties
+* kit-libs\com-twitter-sdk-android_tweet-ui\libs\
+* kit-libs\com-twitter-sdk-android_tweet-ui\libs\com-squareup-picasso_picasso.jar
+* kit-libs\com-twitter-sdk-android_tweet-ui\libs\com-twitter-sdk-android_tweet-ui-classes.jar
+* kit-libs\com-twitter-sdk-android_tweet-ui\proguard.txt
+* kit-libs\com-twitter-sdk-android_tweet-ui\project.properties
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\ic_action_fave_off_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\ic_action_fave_off_disabled.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\ic_action_fave_off_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\ic_action_fave_off_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\ic_action_fave_on_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\ic_action_fave_on_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\ic_action_fave_on_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\ic_action_share_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\ic_action_share_disabled.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\ic_action_share_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\ic_action_share_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\tw__ic_logo_blue.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\tw__ic_logo_white.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\tw__ic_retweet_dark.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\tw__ic_retweet_light.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\tw__ic_tweet_photo_error_dark.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\tw__ic_tweet_photo_error_light.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-hdpi\tw__ic_tweet_verified.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\ic_action_fave_off_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\ic_action_fave_off_disabled.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\ic_action_fave_off_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\ic_action_fave_off_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\ic_action_fave_on_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\ic_action_fave_on_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\ic_action_fave_on_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\ic_action_share_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\ic_action_share_disabled.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\ic_action_share_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\ic_action_share_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\tw__ic_logo_blue.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\tw__ic_logo_white.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\tw__ic_retweet_dark.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\tw__ic_retweet_light.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\tw__ic_tweet_photo_error_dark.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\tw__ic_tweet_photo_error_light.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-mdpi\tw__ic_tweet_verified.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\ic_action_fave_off_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\ic_action_fave_off_disabled.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\ic_action_fave_off_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\ic_action_fave_off_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\ic_action_fave_on_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\ic_action_fave_on_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\ic_action_fave_on_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\ic_action_share_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\ic_action_share_disabled.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\ic_action_share_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\ic_action_share_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\tw__ic_logo_blue.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\tw__ic_logo_white.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\tw__ic_retweet_dark.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\tw__ic_retweet_light.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\tw__ic_tweet_photo_error_dark.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\tw__ic_tweet_photo_error_light.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xhdpi\tw__ic_tweet_verified.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\ic_action_fave_off_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\ic_action_fave_off_disabled.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\ic_action_fave_off_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\ic_action_fave_off_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\ic_action_fave_on_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\ic_action_fave_on_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\ic_action_fave_on_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\ic_action_share_default.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\ic_action_share_disabled.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\ic_action_share_focused.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\ic_action_share_pressed.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\tw__ic_logo_blue.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\tw__ic_logo_white.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\tw__ic_retweet_dark.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\tw__ic_retweet_light.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\tw__ic_tweet_photo_error_dark.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\tw__ic_tweet_photo_error_light.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable-xxhdpi\tw__ic_tweet_verified.png
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable\tw__bg_tweet.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable\tw__bg_tweet_compact.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable\tw__favorite_action.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\drawable\tw__share_action.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\layout\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\layout\tw__action_bar.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\layout\tw__tweet.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\layout\tw__tweet_compact.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-ar\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-ar\values-ar.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-bn\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-bn\values-bn.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-cs\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-cs\values-cs.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-da\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-da\values-da.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-de\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-de\values-de.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-en-rGB\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-en-rGB\values-en-rGB.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-en-rSS\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-en-rSS\values-en-rSS.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-en-rXX\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-en-rXX\values-en-rXX.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-es\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-es\values-es.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-fa\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-fa\values-fa.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-fi\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-fi\values-fi.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-fr\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-fr\values-fr.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-hi\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-hi\values-hi.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-hu\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-hu\values-hu.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-in\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-in\values-in.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-it\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-it\values-it.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-iw\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-iw\values-iw.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-ja\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-ja\values-ja.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-ko\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-ko\values-ko.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-ms\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-ms\values-ms.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-nb\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-nb\values-nb.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-nl\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-nl\values-nl.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-pl\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-pl\values-pl.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-pt\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-pt\values-pt.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-ro\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-ro\values-ro.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-ru\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-ru\values-ru.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-sv\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-sv\values-sv.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-th\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-th\values-th.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-tl\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-tl\values-tl.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-tr\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-tr\values-tr.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-uk\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-uk\values-uk.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-ur\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-ur\values-ur.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-v16\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-v16\values-v16.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-v21\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-v21\values-v21.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-vi\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-vi\values-vi.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-zh-rCN\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-zh-rCN\values-zh-rCN.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-zh-rTW\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values-zh-rTW\values-zh-rTW.xml
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values\
+* kit-libs\com-twitter-sdk-android_tweet-ui\res\values\values.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\
+* kit-libs\com-twitter-sdk-android_twitter-core\.classpath
+* kit-libs\com-twitter-sdk-android_twitter-core\.project
+* kit-libs\com-twitter-sdk-android_twitter-core\.settings\
+* kit-libs\com-twitter-sdk-android_twitter-core\.settings\org.eclipse.jdt.core.prefs
+* kit-libs\com-twitter-sdk-android_twitter-core\AndroidManifest.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\R.txt
+* kit-libs\com-twitter-sdk-android_twitter-core\aapt\
+* kit-libs\com-twitter-sdk-android_twitter-core\aapt\AndroidManifest.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\AndroidManifest.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\R.txt
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\com\
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\com\twitter\
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\com\twitter\sdk\
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\com\twitter\sdk\android\
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\com\twitter\sdk\android\core\
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\com\twitter\sdk\android\core\BuildConfig.class
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\com\twitter\sdk\android\core\R$attr.class
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\com\twitter\sdk\android\core\R$color.class
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\com\twitter\sdk\android\core\R$dimen.class
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\com\twitter\sdk\android\core\R$drawable.class
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\com\twitter\sdk\android\core\R$id.class
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\com\twitter\sdk\android\core\R$layout.class
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\com\twitter\sdk\android\core\R$raw.class
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\com\twitter\sdk\android\core\R$string.class
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\com\twitter\sdk\android\core\R$style.class
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\classes\com\twitter\sdk\android\core\R.class
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\com-twitter-sdk-android_twitter-core.jar
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\jarlist.cache
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\res\
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\res\crunch\
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\res\crunch\drawable-hdpi\
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\res\crunch\drawable-hdpi\tw__ic_logo_default.png
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\res\crunch\drawable-hdpi\tw__share_email_header.png
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\res\crunch\drawable-mdpi\
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\res\crunch\drawable-mdpi\tw__ic_logo_default.png
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\res\crunch\drawable-mdpi\tw__share_email_header.png
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\res\crunch\drawable-xhdpi\
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\res\crunch\drawable-xhdpi\tw__ic_logo_default.png
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\res\crunch\drawable-xhdpi\tw__share_email_header.png
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\res\crunch\drawable-xxhdpi\
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\res\crunch\drawable-xxhdpi\tw__ic_logo_default.png
+* kit-libs\com-twitter-sdk-android_twitter-core\bin\res\crunch\drawable-xxhdpi\tw__share_email_header.png
+* kit-libs\com-twitter-sdk-android_twitter-core\build.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\gen\
+* kit-libs\com-twitter-sdk-android_twitter-core\gen\com\
+* kit-libs\com-twitter-sdk-android_twitter-core\gen\com\twitter\
+* kit-libs\com-twitter-sdk-android_twitter-core\gen\com\twitter\sdk\
+* kit-libs\com-twitter-sdk-android_twitter-core\gen\com\twitter\sdk\android\
+* kit-libs\com-twitter-sdk-android_twitter-core\gen\com\twitter\sdk\android\core\
+* kit-libs\com-twitter-sdk-android_twitter-core\gen\com\twitter\sdk\android\core\BuildConfig.java
+* kit-libs\com-twitter-sdk-android_twitter-core\gen\com\twitter\sdk\android\core\R.java
+* kit-libs\com-twitter-sdk-android_twitter-core\kit-version.properties
+* kit-libs\com-twitter-sdk-android_twitter-core\libs\
+* kit-libs\com-twitter-sdk-android_twitter-core\libs\com-google-code-gson_gson.jar
+* kit-libs\com-twitter-sdk-android_twitter-core\libs\com-squareup-retrofit_retrofit.jar
+* kit-libs\com-twitter-sdk-android_twitter-core\libs\com-twitter-sdk-android_twitter-core-classes.jar
+* kit-libs\com-twitter-sdk-android_twitter-core\proguard.txt
+* kit-libs\com-twitter-sdk-android_twitter-core\project.properties
+* kit-libs\com-twitter-sdk-android_twitter-core\res\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable-hdpi\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable-hdpi\tw__ic_logo_default.png
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable-hdpi\tw__share_email_header.png
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable-mdpi\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable-mdpi\tw__ic_logo_default.png
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable-mdpi\tw__share_email_header.png
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable-xhdpi\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable-xhdpi\tw__ic_logo_default.png
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable-xhdpi\tw__share_email_header.png
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable-xxhdpi\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable-xxhdpi\tw__ic_logo_default.png
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable-xxhdpi\tw__share_email_header.png
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable\tw__login_btn.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable\tw__login_btn_default.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable\tw__login_btn_default_light.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable\tw__login_btn_disabled.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable\tw__login_btn_light.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable\tw__login_btn_pressed.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable\tw__login_btn_pressed_light.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable\tw__login_btn_text_color_light.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\drawable\tw__transparent.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\layout\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\layout\tw__activity_oauth.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\layout\tw__activity_share_email.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\raw\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\raw\tw__cacerts
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-ar\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-ar\values-ar.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-bn\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-bn\values-bn.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-cs\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-cs\values-cs.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-da\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-da\values-da.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-de\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-de\values-de.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-en-rGB\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-en-rGB\values-en-rGB.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-en-rSS\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-en-rSS\values-en-rSS.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-en-rXX\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-en-rXX\values-en-rXX.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-es\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-es\values-es.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-fa\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-fa\values-fa.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-fi\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-fi\values-fi.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-fr\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-fr\values-fr.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-hdpi\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-hdpi\values-hdpi.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-hi\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-hi\values-hi.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-hu\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-hu\values-hu.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-in\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-in\values-in.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-it\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-it\values-it.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-iw\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-iw\values-iw.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-ja\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-ja\values-ja.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-ko\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-ko\values-ko.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-ms\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-ms\values-ms.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-nb\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-nb\values-nb.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-nl\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-nl\values-nl.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-pl\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-pl\values-pl.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-pt\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-pt\values-pt.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-ro\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-ro\values-ro.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-ru\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-ru\values-ru.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-sv\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-sv\values-sv.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-sw720dp\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-sw720dp\values-sw720dp.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-th\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-th\values-th.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-tl\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-tl\values-tl.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-tr\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-tr\values-tr.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-uk\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-uk\values-uk.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-ur\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-ur\values-ur.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-vi\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-vi\values-vi.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-xhdpi\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-xhdpi\values-xhdpi.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-xxhdpi\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-xxhdpi\values-xxhdpi.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-zh-rCN\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-zh-rCN\values-zh-rCN.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-zh-rTW\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values-zh-rTW\values-zh-rTW.xml
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values\
+* kit-libs\com-twitter-sdk-android_twitter-core\res\values\values.xml
+* kit-libs\com-twitter-sdk-android_twitter\
+* kit-libs\com-twitter-sdk-android_twitter\.classpath
+* kit-libs\com-twitter-sdk-android_twitter\.project
+* kit-libs\com-twitter-sdk-android_twitter\.settings\
+* kit-libs\com-twitter-sdk-android_twitter\.settings\org.eclipse.jdt.core.prefs
+* kit-libs\com-twitter-sdk-android_twitter\AndroidManifest.xml
+* kit-libs\com-twitter-sdk-android_twitter\R.txt
+* kit-libs\com-twitter-sdk-android_twitter\aapt\
+* kit-libs\com-twitter-sdk-android_twitter\aapt\AndroidManifest.xml
+* kit-libs\com-twitter-sdk-android_twitter\bin\
+* kit-libs\com-twitter-sdk-android_twitter\bin\AndroidManifest.xml
+* kit-libs\com-twitter-sdk-android_twitter\bin\R.txt
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\twitter\
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\twitter\sdk\
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\twitter\sdk\android\
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\twitter\sdk\android\BuildConfig.class
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\twitter\sdk\android\R$attr.class
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\twitter\sdk\android\R$color.class
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\twitter\sdk\android\R$dimen.class
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\twitter\sdk\android\R$drawable.class
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\twitter\sdk\android\R$id.class
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\twitter\sdk\android\R$layout.class
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\twitter\sdk\android\R$plurals.class
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\twitter\sdk\android\R$raw.class
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\twitter\sdk\android\R$string.class
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\twitter\sdk\android\R$style.class
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\twitter\sdk\android\R$styleable.class
+* kit-libs\com-twitter-sdk-android_twitter\bin\classes\com\twitter\sdk\android\R.class
+* kit-libs\com-twitter-sdk-android_twitter\bin\com-twitter-sdk-android_twitter.jar
+* kit-libs\com-twitter-sdk-android_twitter\bin\jarlist.cache
+* kit-libs\com-twitter-sdk-android_twitter\build.xml
+* kit-libs\com-twitter-sdk-android_twitter\gen\
+* kit-libs\com-twitter-sdk-android_twitter\gen\com\
+* kit-libs\com-twitter-sdk-android_twitter\gen\com\twitter\
+* kit-libs\com-twitter-sdk-android_twitter\gen\com\twitter\sdk\
+* kit-libs\com-twitter-sdk-android_twitter\gen\com\twitter\sdk\android\
+* kit-libs\com-twitter-sdk-android_twitter\gen\com\twitter\sdk\android\BuildConfig.java
+* kit-libs\com-twitter-sdk-android_twitter\gen\com\twitter\sdk\android\R.java
+* kit-libs\com-twitter-sdk-android_twitter\kit-version.properties
+* kit-libs\com-twitter-sdk-android_twitter\libs\
+* kit-libs\com-twitter-sdk-android_twitter\libs\com-twitter-sdk-android_twitter-classes.jar
+* kit-libs\com-twitter-sdk-android_twitter\project.properties
+* kit-libs\io-fabric-sdk-android_fabric\
+* kit-libs\io-fabric-sdk-android_fabric\.classpath
+* kit-libs\io-fabric-sdk-android_fabric\.project
+* kit-libs\io-fabric-sdk-android_fabric\.settings\
+* kit-libs\io-fabric-sdk-android_fabric\.settings\org.eclipse.jdt.core.prefs
+* kit-libs\io-fabric-sdk-android_fabric\AndroidManifest.xml
+* kit-libs\io-fabric-sdk-android_fabric\aapt\
+* kit-libs\io-fabric-sdk-android_fabric\aapt\AndroidManifest.xml
+* kit-libs\io-fabric-sdk-android_fabric\bin\
+* kit-libs\io-fabric-sdk-android_fabric\bin\AndroidManifest.xml
+* kit-libs\io-fabric-sdk-android_fabric\bin\classes\
+* kit-libs\io-fabric-sdk-android_fabric\bin\classes\io\
+* kit-libs\io-fabric-sdk-android_fabric\bin\classes\io\fabric\
+* kit-libs\io-fabric-sdk-android_fabric\bin\classes\io\fabric\sdk\
+* kit-libs\io-fabric-sdk-android_fabric\bin\classes\io\fabric\sdk\android\
+* kit-libs\io-fabric-sdk-android_fabric\bin\classes\io\fabric\sdk\android\BuildConfig.class
+* kit-libs\io-fabric-sdk-android_fabric\bin\io-fabric-sdk-android_fabric.jar
+* kit-libs\io-fabric-sdk-android_fabric\build.xml
+* kit-libs\io-fabric-sdk-android_fabric\gen\
+* kit-libs\io-fabric-sdk-android_fabric\gen\io\
+* kit-libs\io-fabric-sdk-android_fabric\gen\io\fabric\
+* kit-libs\io-fabric-sdk-android_fabric\gen\io\fabric\sdk\
+* kit-libs\io-fabric-sdk-android_fabric\gen\io\fabric\sdk\android\
+* kit-libs\io-fabric-sdk-android_fabric\gen\io\fabric\sdk\android\BuildConfig.java
+* kit-libs\io-fabric-sdk-android_fabric\kit-version.properties
+* kit-libs\io-fabric-sdk-android_fabric\libs\
+* kit-libs\io-fabric-sdk-android_fabric\libs\io-fabric-sdk-android_fabric-classes.jar
+* kit-libs\io-fabric-sdk-android_fabric\project.properties
+* kits.properties
+* proguard-com.twitter.sdk.android.twitter.txt
+* proguard-project.txt
+From io-fabric-sdk-android_fabric:
+* aapt\
+* aapt\AndroidManifest.xml
+* build.xml
+* kit-version.properties
+From library:
+* LICENSE.txt
+* build.gradle
+* library.iml
+* pom.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.+
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:22.+
+guava-17.0.jar => com.google.guava:guava:17.0
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+guava-17.0.jar => version 17.0 in com.google.guava:guava:17.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:22.+]
+google-play-services_lib => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In Cropper:
+* AndroidManifest.xml => cropper\src\main\AndroidManifest.xml
+* assets\ => cropper\src\main\assets
+* res\ => cropper\src\main\res\
+* src\ => cropper\src\main\java\
+In FacebookSDK:
+* AndroidManifest.xml => facebookSDK\src\main\AndroidManifest.xml
+* assets\ => facebookSDK\src\main\assets
+* libs\bolts-android-1.1.2.jar => facebookSDK\libs\bolts-android-1.1.2.jar
+* res\ => facebookSDK\src\main\res\
+* src\ => facebookSDK\src\main\java\
+In io-fabric-sdk-android_fabric:
+* AndroidManifest.xml => iofabricsdkandroid_fabric\src\main\AndroidManifest.xml
+* assets\ => iofabricsdkandroid_fabric\src\main\assets
+* libs\io-fabric-sdk-android_fabric-classes.jar => iofabricsdkandroid_fabric\libs\io-fabric-sdk-android_fabric-classes.jar
+* res\ => iofabricsdkandroid_fabric\src\main\res
+* src\ => iofabricsdkandroid_fabric\src\main\java
+In com-twitter-sdk-android_tweet-composer:
+* AndroidManifest.xml => comtwittersdkandroid_tweetcomposer\src\main\AndroidManifest.xml
+* assets\ => comtwittersdkandroid_tweetcomposer\src\main\assets
+* libs\com-twitter-sdk-android_tweet-composer-classes.jar => comtwittersdkandroid_tweetcomposer\libs\com-twitter-sdk-android_tweet-composer-classes.jar
+* res\ => comtwittersdkandroid_tweetcomposer\src\main\res
+* src\ => comtwittersdkandroid_tweetcomposer\src\main\java
+In com-twitter-sdk-android_twitter-core:
+* AndroidManifest.xml => comtwittersdkandroid_twittercore\src\main\AndroidManifest.xml
+* assets\ => comtwittersdkandroid_twittercore\src\main\assets
+* libs\com-google-code-gson_gson.jar => comtwittersdkandroid_twittercore\libs\com-google-code-gson_gson.jar
+* libs\com-squareup-retrofit_retrofit.jar => comtwittersdkandroid_twittercore\libs\com-squareup-retrofit_retrofit.jar
+* libs\com-twitter-sdk-android_twitter-core-classes.jar => comtwittersdkandroid_twittercore\libs\com-twitter-sdk-android_twitter-core-classes.jar
+* res\ => comtwittersdkandroid_twittercore\src\main\res\
+* src\ => comtwittersdkandroid_twittercore\src\main\java
+In com-digits-sdk-android_digits:
+* AndroidManifest.xml => comdigitssdkandroid_digits\src\main\AndroidManifest.xml
+* assets\ => comdigitssdkandroid_digits\src\main\assets
+* libs\com-digits-sdk-android_digits-classes.jar => comdigitssdkandroid_digits\libs\com-digits-sdk-android_digits-classes.jar
+* res\ => comdigitssdkandroid_digits\src\main\res\
+* src\ => comdigitssdkandroid_digits\src\main\java
+In com-twitter-sdk-android_tweet-ui:
+* AndroidManifest.xml => comtwittersdkandroid_tweetui\src\main\AndroidManifest.xml
+* assets\ => comtwittersdkandroid_tweetui\src\main\assets
+* libs\com-squareup-picasso_picasso.jar => comtwittersdkandroid_tweetui\libs\com-squareup-picasso_picasso.jar
+* libs\com-twitter-sdk-android_tweet-ui-classes.jar => comtwittersdkandroid_tweetui\libs\com-twitter-sdk-android_tweet-ui-classes.jar
+* res\ => comtwittersdkandroid_tweetui\src\main\res\
+* src\ => comtwittersdkandroid_tweetui\src\main\java
+In com-twitter-sdk-android_twitter:
+* AndroidManifest.xml => comtwittersdkandroid_twitter\src\main\AndroidManifest.xml
+* assets\ => comtwittersdkandroid_twitter\src\main\assets
+* libs\com-twitter-sdk-android_twitter-classes.jar => comtwittersdkandroid_twitter\libs\com-twitter-sdk-android_twitter-classes.jar
+* res\ => comtwittersdkandroid_twitter\src\main\res
+* src\ => comtwittersdkandroid_twitter\src\main\java
+In library:
+* AndroidManifest.xml => library\src\main\AndroidManifest.xml
+* assets\ => library\src\main\assets
+* res\ => library\src\main\res\
+* src\ => library\src\main\java\
+In intro:
+* AndroidManifest.xml => intro\src\main\AndroidManifest.xml
+* assets\ => intro\src\main\assets\
+* libs\firebase-client-android-2.3.1.jar => intro\libs\firebase-client-android-2.3.1.jar
+* libs\mobileservices-2.0.1-beta.jar => intro\libs\mobileservices-2.0.1-beta.jar
+* libs\notification-hubs-0.3.jar => intro\libs\notification-hubs-0.3.jar
+* libs\notifications-1.0.1.jar => intro\libs\notifications-1.0.1.jar
+* lint.xml => intro\lint.xml
+* res\ => intro\src\main\res\
+* src\ => intro\src\main\java\
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+D:\Studio_AWS
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Missing Google Repository:
+--------------------------
+The Google Play Services library is installed from a special Maven
+Repository, which should be installed via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+D:\Studio_AWS
+
+To install it, open the SDK manager, and in the Extras category,
+select "Google Repository".
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

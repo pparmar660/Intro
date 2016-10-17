@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:intro="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/breadcrumb_like_color">
+
+    <RelativeLayout
+        android:id="@+id/match_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_size"
+        android:background="@color/breadcrumb_like_header_color"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/introLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="@dimen/default_padding"
+            android:paddingTop="@dimen/default_padding"
+            android:src="@drawable/logo_2"/>
+
+        </RelativeLayout>
+
+    <com.intro.customviews.CustomTextView
+        android:id="@+id/top_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/match_header"
+        android:padding="@dimen/default_double_padding"
+        android:text="BREADCRUMB\n\nMATCHES ARE\n\nNEARBY!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/pink_text"
+        android:textSize="@dimen/textsize_50"
+        intro:customFont="boton.ttf" />
+
+    <ListView
+        android:id="@+id/breadcrumb_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_text"
+        android:layout_above="@+id/go_chat"
+        android:dividerHeight="3dp"
+        android:divider="@color/breadcrumb_like_color"
+        android:background="@color/list_color"/>
+
+
+    <com.intro.customviews.CustomButton
+        android:id="@+id/go_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/view_profiles"
+        android:layout_marginBottom="@dimen/padding_1"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/new_chat"
+        android:drawablePadding="@dimen/default_padding"
+        android:gravity="center_vertical"
+        android:padding="@dimen/default_padding"
+        android:text="@string/go_chat"
+        intro:customFont="boton.ttf" />
+
+    <com.intro.customviews.CustomButton
+        android:id="@+id/view_profiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/new_play"
+        android:drawablePadding="@dimen/default_padding"
+        android:gravity="center_vertical"
+        android:padding="@dimen/default_padding"
+        android:text="@string/view_live_profile"
+        android:textColor="@color/pink_text"
+        intro:customFont="boton.ttf" />
+</RelativeLayout>
